@@ -39,7 +39,8 @@ creator:
 | 15 min  | [Demo](#demo2)  | Delve into Data with Python   |
 | 20 min  | [Guided Practice](#guided-practice2)  | Cleaning Data with Python  |
 | 20 min  | [Independent Practice](#ind-practice2)  | Applying Your Own Python Workflow |
-| 5 min  | [Conclusion](#conclusion)
+| 10 min  | [Conclusion](#conclusion) | Review + Recap |
+| 15 min  | [Takeaways](#takeaway) | Learning Plan + Q&A |
 
 ---
 
