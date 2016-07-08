@@ -30,15 +30,15 @@ creator:
 | TIMING  | TYPE  | TOPIC  |
 |:-:|---|---|
 | 10 min  | [Opening](#opening)  | Greetings + The GA Experience  |
-| 15 min  | [Introduction](#intro1)   | Why Data Science? + What Can Data Science Do For Me? |
-| 15 min  | [Demo](#demo1)  | Visualizing the Data Science Workflow  |
-| 20 min  | [Guided Practice](#guided-practice1)  | Exploring the Data Science Toolkit |
-| 20 min  | [Independent Practice](#ind-practice1)  | Analyze Some Data! |
+| 15 min  | [Introduction](#intro1)   | Why Python? What Can Python Do For Me? |
+| 15 min  | [Demo](#demo1)  | Implementing Python into your Workflow |
+| 20 min  | [Guided Practice](#guided-practice1)  | Installing & Configuring Common Python Libraries |
+| 20 min  | [Independent Practice](#ind-practice1)  | Applying Python Pseudocode to Sample Data |
 | 5-10 min  | BREAK  |   |
-| 15 min  | [Introduction](#intro2)   | What's an Algorithm, Anyway? |
-| 15 min  | [Demo](#demo2)  | Algorithms in Action  |
-| 20 min  | [Guided Practice](#guided-practice2)  | Thinking Logically  |
-| 20 min  | [Independent Practice](#ind-practice2)  | Data Science Case Study |
+| 15 min  | [Introduction](#intro2)   | Python Programming Fundamentals |
+| 15 min  | [Demo](#demo2)  | Delve into Data with Python   |
+| 20 min  | [Guided Practice](#guided-practice2)  | Cleaning Data with Python  |
+| 20 min  | [Independent Practice](#ind-practice2)  | Applying Your Own Python Workflow |
 | 5 min  | [Conclusion](#conclusion)
 
 ---
@@ -140,10 +140,14 @@ Before we dive in, a bit about you!
 
 > Review Topics Covered
 
-#### Learning Plan (10 mins)
+***
 
+<a name="takeaway"></a>
+## Takeways: Learning Plan + Q&A (15 mins)
 
-#### Q&A (5 mins)
+#### What Should You Do Next?
+
+#### Q & A
 
 ***
 
