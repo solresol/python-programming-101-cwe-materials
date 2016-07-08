@@ -40,7 +40,7 @@ creator:
 | 20 min  | [Guided Practice](#guided-practice2)  | Cleaning Data with Python  |
 | 20 min  | [Independent Practice](#ind-practice2)  | Applying Your Own Python Workflow |
 | 10 min  | [Conclusion](#conclusion) | Review + Recap |
-| 15 min  | [Takeaways](#takeaway) | Learning Plan + Q&A |
+| 10 min  | [Takeaways](#takeaway) | Learning Plan + Q&A |
 
 ---
 
@@ -60,14 +60,14 @@ Before we dive in, a bit about you!
 
 > Have students introduce themselves: name, what brings them to GA (ask for their current career & any specific goals), & one "fun fact".
 
-> **Example Exercise**: *Have students write these on google doc or google poll. Instructor can briefly demonstrate data science workflow by categorizing data, merging into CSV file,  pulling out features, etc.*
+> **Example Exercise**: *Have students submit their info one per line on a CSV file (via google doc, etc). Instructors can then use Python to briefly analyze and pull out interesting information (e.g. create dictionary, append, sort, etc).*
 
 
 #### Our Expectations
 
 - You're ready to take charge of your learning experience.
 - You've installed Anaconda & Python 2.7.
-- You're curious and excited about data science!
+- You're interested in learning about Python!
 
 #### Our Objectives
 
@@ -82,7 +82,7 @@ Before we dive in, a bit about you!
 ***
 
 <a name="intro1"></a>
-## Introduction: Data Science (15 mins)
+## Introduction: Why Python? What Can Python Do For Me? (15 mins)
 
 
 
