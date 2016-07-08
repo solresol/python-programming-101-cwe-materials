@@ -51,8 +51,8 @@ creator:
 
 #### Instructor Bio
 
-Welcome to Data Science 101! Here's a bit about me:
-> Provide your name and brief bio. your background in data science, any experience you've had with GA, and one "fun fact" about yourself.
+Welcome to Python Programming 101! Here's a bit about me:
+> Provide your name and brief bio. your background in python programming, any experience you've had with GA, and one "fun fact" about yourself.
 
 #### Introduce Yourselves
 
