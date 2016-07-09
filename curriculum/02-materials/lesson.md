@@ -10,10 +10,11 @@ creator:
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
-- Discuss the history of Python and how it's used across different industries
-- Define the benefits of Python workflow and any differences from programming languages
-- Demonstrate basic understanding of Python programming fundamentals
-- Apply Python pseudocode to sample data to solve real world problems
+- Discuss the history of Python and its use across different industries.
+- Define how Python compares to other programming languages.
+- Describe the benefits of a Python workflow when working with data.
+- Demonstrate basic understanding of Python programming fundamentals.
+- Use Python code to solve real world data problems.
 - Create a custom learning plan to help you continue to build fundamental python skills after this workshop.
 
 ### STUDENT PRE-WORK
