@@ -12,9 +12,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!-- a bulleted list of learning goals from Confluence -->
 
-- Goal 1
-- Goal 2
-- Goal 3
+- Discuss the history of Python and its use across different industries.
+- Define how Python compares to other programming languages.
+- Describe the benefits of a Python workflow when working with data.
+- Demonstrate basic understanding of Python programming fundamentals.
+- Use Python code to solve real world data problems.
 
 ---
 
