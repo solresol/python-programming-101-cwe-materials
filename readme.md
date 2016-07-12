@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Define how Python compares to other programming languages.
 - Describe the benefits of a Python workflow when working with data.
 - Demonstrate basic understanding of Python programming fundamentals.
-- Use Python code to solve real world data problems.
+- Apply Python code to solve real world data issues.
 
 ---
 
