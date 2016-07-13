@@ -93,8 +93,24 @@ Before we dive in, a bit about you!
 **What is Python?**
 
 - Created by Guido Van Rossem in 1991
-- Emphasises productivity and code readability
+- Emphasises **productivity** and code **readability**
+	* The language is easy to pick up and learn
+	* This gentle learning curve brings makes it easier for many to contribute to production level code
+	* Readable code means that almost anyone can pick up a puece of code and understand what it is doing
 - Interpreted, object-oriented, high-level programming language with dynamic semantics
+	* **Interpreted**: Code implementations execute instructions without having to *compile* them into machine-language instruction. In contrast, compiled code is executed by the computer's CPU (hardware)
+		* Interpreted code may run less quickly, but can be executed on multiple platforms without modification
+	* **Object-oriented** (OO): Instead of concentraing on isolated "actions", object-orientation enables us to focus on "objects" that contain data (attributes). Objects have specific procedures, known as methods (code) that can access and modify the attributes of the object.
+		* OO makes it easoer to reuse code in other programs
+	* **High-level programming**: Related to the code readability mentioned earlier
+		* The use of language similar to natural language makes it easy to use and automate 
+	* **Dynamic semantics**: Once data has been specified, the machine must be instructed to perform operations on the data. Dynamic semantics (also known as execution semantics)  defines how and when the various constructs of a language should produce a program behaviour, providing flexibility at run-time. 
+
+> Instructor Note: 
+> #### KNOWLEDGE CHECK
+> Ask students to recall what they just learned. For example get them to explain terms to each other.	
+	
+
 
 **Why Python?**
 
