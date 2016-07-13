@@ -21,6 +21,7 @@ creator:
 *Before this lesson, you should already be able to:*
 - Bring a laptop with [Python 2.7](#) and [Anaconda](#) installed.
 - If you are using a PC, install [git-bash terminal](#).
+- Optional: Install a text editor like Sublime Text 3 or Atom on your computer.
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
