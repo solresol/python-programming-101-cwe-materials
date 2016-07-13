@@ -108,9 +108,7 @@ Before we dive in, a bit about you!
 
 > Instructor Note: 
 > #### KNOWLEDGE CHECK
-> Ask students to recall what they just learned. For example get them to explain terms to each other.	
-	
-
+> Ask students to recall what they just learned. For example get them to explain terms to each other.
 
 **Why Python?**
 
@@ -124,8 +122,11 @@ Before we dive in, a bit about you!
 * Because it comes with "batteries included" i.e. libraries for whatever you want.
 * Because it is well documented and has a well-established and growing community.
 
-> Instructor Note: Provide an example of your day-to-day work with Python.
+> Instructor Note 
+> ### KNOWLEDGE CHECK
+> Provide an example of your day-to-day work with Python.
 > Ask students how they manage their data work and whether they have had any experience with Python (or any other programming languages).
+> Ask students to  generate answers - why are these things good? Why does this matter?
 
 
 ***
