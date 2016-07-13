@@ -136,7 +136,6 @@ Before we dive in, a bit about you!
 
 **Where is Python used?**
 
-[Applications of Python](https://www.python.org/about/apps/)
 
 * Everywhere! Both in industry and Academia
 * Art Middleware – Tools and Plugins
@@ -145,6 +144,19 @@ Before we dive in, a bit about you!
 * Game Development
 * Windows Applications
 * You name it!
+
+### Examples:
+
+* Industry
+	- [Drug discovery](https://www.python.org/about/success/astra/)
+	- [Financial services](https://www.python.org/about/success/resolver/)
+	- [Films and special effects](https://www.python.org/about/success/ilm/)
+* Academia
+	- [Gravitational waves](https://software.intel.com/en-us/blogs/2016/02/14/python-brings-us-the-ligo-gravity-wave-sound)
+	- [Scientific visualisation](https://www.python.org/about/success/mayavi/)
+	- [Biomolecule simulation](https://www.python.org/about/success/mmtk/)
+
+> Instructor Note: Examples to be presented can be drawn from your own experience with the language. If you need inspiration, there are plenty of examples in [this page](https://www.python.org/about/success/)
 
 **Python v other languages**
 
@@ -475,6 +487,7 @@ Suggest sonme resources such as books, podcasts, GA courses, etc.
 
 ## ADDITIONAL RESOURCES
 
+- [Python success stories](https://www.python.org/about/success/)
 - [Learn Python the hard way](http://learnpythonthehardway.org)
 - [Beginners' Guide to Python](https://wiki.python.org/moin/BeginnersGuide)
 - [10 Minutes to Pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
