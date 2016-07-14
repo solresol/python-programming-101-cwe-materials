@@ -95,21 +95,21 @@ Before we dive in, a bit about you!
 
 **What is Python?**
 
-- Created by Guido Van Rossem in 1991
+- Created by Guido Van Rossum in 1991
 - Emphasises **productivity** and code **readability**
 	* The language is easy to pick up and learn
 	* This gentle learning curve brings makes it easier for many to contribute to production level code
-	* Readable code means that almost anyone can pick up a puece of code and understand what it is doing
+	* Readable code means that almost anyone can pick up a piece of code and understand what it is doing
 - Interpreted, object-oriented, high-level programming language with dynamic semantics
 	* **Interpreted**: Code implementations execute instructions without having to *compile* them into machine-language instruction. In contrast, compiled code is executed by the computer's CPU (hardware)
 		* Interpreted code may run less quickly, but can be executed on multiple platforms without modification
-	* **Object-oriented** (OO): Instead of concentraing on isolated "actions", object-orientation enables us to focus on "objects" that contain data (attributes). Objects have specific procedures, known as methods (code) that can access and modify the attributes of the object.
-		* OO makes it easoer to reuse code in other programs
+	* **Object-oriented** (OO): Instead of concentrating on isolated "actions", object-orientation enables us to focus on "objects" that contain data (attributes). Objects have specific procedures, known as methods (code) that can access and modify the attributes of the object.
+		* OO makes it easier to reuse code in other programs
 	* **High-level programming**: Related to the code readability mentioned earlier
-		* The use of language similar to natural language makes it easy to use and automate 
-	* **Dynamic semantics**: Once data has been specified, the machine must be instructed to perform operations on the data. Dynamic semantics (also known as execution semantics)  defines how and when the various constructs of a language should produce a program behaviour, providing flexibility at run-time. 
+		* The use of language similar to natural language makes it easy to use and automate
+	* **Dynamic semantics**: Once data has been specified, the machine must be instructed to perform operations on the data. Dynamic semantics (also known as execution semantics)  defines how and when the various constructs of a language should produce a program behaviour, providing flexibility at run-time.
 
-> Instructor Note: 
+> Instructor Note:
 > #### KNOWLEDGE CHECK
 > Ask students to recall what they just learned. For example get them to explain terms to each other.
 
@@ -125,7 +125,7 @@ Before we dive in, a bit about you!
 * Because it comes with "batteries included" i.e. libraries for whatever you want.
 * Because it is well documented and has a well-established and growing community.
 
-> Instructor Note 
+> Instructor Note
 > ### KNOWLEDGE CHECK
 > Provide an example of your day-to-day work with Python.
 > Ask students how they manage their data work and whether they have had any experience with Python (or any other programming languages).
@@ -163,7 +163,7 @@ Before we dive in, a bit about you!
 
 **Python v other languages**
 
-> Instructor Note: 
+> Instructor Note:
 > ### ACTIVITY AND DISCUSSION
 > What other languages have the students heard of? what are they familiar with, if any? Then ask how they think those might compare to Python.
 
@@ -171,7 +171,7 @@ Before we dive in, a bit about you!
 
 Python is often compared to other interpreted languages such as Java, JavaScript, Perl, Tcl, or Smalltalk. Comparisons to C++, Common Lisp and Scheme can also be enlightening.
 
-#### EXAMPLE 
+#### EXAMPLE
 Let us what a Python program looks like, starting with the typical "Hello World!" program: In essence we are writing code to print the message "Hello World!" in the screen.
 
 - **Python**
@@ -196,7 +196,7 @@ int main()
 
 The Python version of this program is very simple: one line of code that will `print` the string `'Hello World!`.  It is easy to read and understand.
 
-The C++ version does exactly the same, but it requires us to write more information. For example we need to define a `main` function, we have to be careful with the use of punctuation (notice the semicolons at the end of some of the lines) and `cout` is not very understandable in plain terms. 
+The C++ version does exactly the same, but it requires us to write more information. For example we need to define a `main` function, we have to be careful with the use of punctuation (notice the semicolons at the end of some of the lines) and `cout` is not very understandable in plain terms.
 
 Let us see the same program in Java:
 
@@ -212,25 +212,25 @@ public class HelloWorld
 }
 ```
 
-Notice that in the Java versionm we define the code inside the context of class.
+Notice that in the Java version we define the code inside the context of class.
 
 In Object Oriented Programming a *class* is a template definition of the methods and variables in a particular kind of object. In other words, an object is a specific instance of a class: it contains actual values instead of variables.
 
-> Instructor Note: 
+> Instructor Note:
 > ### OTHER EXAMPLES
-> You are encouraged to use other specific examples of an element python does particularly well, using a simple statement or function. This depends on your familiarity with other programming languages, as wel with the abilities of the students in your class.
+> You are encouraged to use other specific examples of an element python does particularly well, using a simple statement or function. This depends on your familiarity with other programming languages, as well with the abilities of the students in your class.
 
 #### Python interactive shell v scripts
 
-In the example shown above, we are assuming that we are using an interactive shell, i.e. we are writing code that is executed immediately by the Python interpreter and wer are able to "interact" with the results of the commands we pass. We can do this via:
+In the example shown above, we are assuming that we are using an interactive shell, i.e. we are writing code that is executed immediately by the Python interpreter and we are able to "interact" with the results of the commands we pass. We can do this via:
 
-- python shell: Look and feel similar to a terminal shell. This can be launched with: 
+- python shell: Look and feel similar to a terminal shell. This can be launched with:
 
 ```
 > python
 ```
 
-- ipython shell: Look and feel is more interesting than a plain terminal, providing syntax colouring and shortcuts to interact with our code. This can be launched with: 
+- ipython shell: Look and feel is more interesting than a plain terminal, providing syntax colouring and shortcuts to interact with our code. This can be launched with:
 
 ```
 > ipython
@@ -242,11 +242,11 @@ In the example shown above, we are assuming that we are using an interactive she
 > jupyter notebook
 ```
 
-Alternatively, there may be instances where we do not need to interact with our Python code. Instead we may want to execute a program, in bach mode for instance, and simply get the results at the end of the execution. 
+Alternatively, there may be instances where we do not need to interact with our Python code. Instead we may want to execute a program, in bach mode for instance, and simply get the results at the end of the execution.
 
-In those cases we need to create a Python script (we can use any plain text editor of our choice) and save the code in a file with extension `.py`. 
+In those cases we need to create a Python script (we can use any plain text editor of our choice) and save the code in a file with extension `.py`.
 
-Anaconda distributions (Mac, Win, Linux) come with an IDE called `Spyder`. 
+Anaconda distributions (Mac, Win, Linux) come with an IDE called `Spyder`.
 
 Other IDEs:
 
@@ -266,7 +266,7 @@ To run the script by passing it as a command to the Python interpreter we need t
 > python hi.py
 ```
 
-Plese note that all of the code that is at indentation level 0 gets executed. Functions and classes that are defined but not on at the 0-th level indentation are not executed.
+Please note that all of the code that is at indentation level 0 gets executed. Functions and classes that are defined but not on at the 0-th level indentation are not executed.
 
 Unlike other languages, there's no `main()` function that gets run automatically - the `main()` function is implicitly all the code at the top level.
 
@@ -277,15 +277,15 @@ if __name__ == "__main__":
     ...
 ```
 
-A more sophisticated vesion of the "Hello World!" script is therefore:
+A more sophisticated version of the "Hello World!" script is therefore:
 
-```	
+```
 	def main():
 	    print("hello world")
-	    
+
 	if __name__ == '__main__':
 	    main()
-```	
+```
 
 ***
 
@@ -300,11 +300,11 @@ See file here:
 <a name="guided-practice1"></a>
 ## Guided Practice: Installing and Configuring Common Python Libraries (20 mins)
 
-> Instructor Note: 
-> ### IDE to be used 
+> Instructor Note:
+> ### IDE to be used
 > You can show the following commands and concepts using a python/ipython shell. We encourage you to use a **Jupyter notebook** in the second part of the workshop.
 
-### Instructions for students 
+### Instructions for students
 We recommend using a Jupyter notebook for this guided practice. This makes it easier for all as it is homogenous for various environments (mac, win, linux).
 
 1. Open Jupyter: in a terminal type
@@ -328,11 +328,11 @@ We saw how this was used in the demo section (see above) to install `plotly`
 Other packages that are widely used:
 
 * pandas
-	* Ever used Excel? How do yo fancy working with data structured in a similar way, but without the irritation of formatting, long formulae and better graphics. Well, use *pandas* 
+	* Ever used Excel? How do yo fancy working with data structured in a similar way, but without the irritation of formatting, long formulae and better graphics. Well, use *pandas*
 * SciPy/NumPy
-	* Does your application require the use of advanced mathematical functions or numerical operations with arrays, vectors or matrices? Try *SciPy* (scientific python) and *NumPy* (numerical python 
+	* Does your application require the use of advanced mathematical functions or numerical operations with arrays, vectors or matrices? Try *SciPy* (scientific python) and *NumPy* (numerical python
 * Scikit-Learn
-	* Are you interested in using python in a data science workflow and exploit the use of machine learning in your applications? Look no further than *Scikit-learn* 
+	* Are you interested in using python in a data science workflow and exploit the use of machine learning in your applications? Look no further than *Scikit-learn*
 * matplotlib
 	* Are you tired of the boring-looking charts produced with Excel? Are you bored of looking for the write menu to move a label in your plot? Take a look at the visuals offered by *matplotlib* 	
 * statsmodels: statistical tests
@@ -342,7 +342,9 @@ Other packages that are widely used:
 
 ### Importing a module
 ```
-import mathx = math.cos(2 * math.pi)print(x)
+import math
+x = math.cos(2 * math.pi)
+print(x)
 
 from math import *
 
@@ -354,8 +356,9 @@ log(10,2)
 ### Types, Variables, assignment
 
 ```
-# variable assignments 
-x = 1.0my_variable = 12.2
+# variable assignments
+x = 1.0
+my_variable = 12.2
 type(x)
 
 y = 1
@@ -377,7 +380,7 @@ print(dir(types))
 # Comment
 
 # Comparison: >, <, <=, <=, ==
-2 > 1 
+2 > 1
 
 # Testing for equality
 2 == 2
@@ -386,10 +389,12 @@ print(dir(types))
 **Lists**
 
 ```
-l = [1,2,3,4] 
-print(type(l))print(l)
-print(l) 
-print(l[1:3])print(l[::2])
+l = [1,2,3,4]
+print(type(l))
+print(l)
+print(l)
+print(l[1:3])
+print(l[::2])
 
 # Python starts counting from 0
 print(l[0])
@@ -398,17 +403,21 @@ print(l[0])
 **Tuples**
 
 ```
-point = (10, 20)print(point, type(point))
+point = (10, 20)
+print(point, type(point))
 
-x, y = point 
-print("x =", x)print("y =", y)
+x, y = point
+print("x =", x)
+print("y =", y)
 ```
 
-**Dictonaries**
+**Dictionaries**
 
 ```
-params = {"parameter1" : 1.0, "parameter2" : 2.0,"parameter3" : 3.0,} 
-print(type(params))print(params)
+params = {"parameter1" : 1.0, "parameter2" : 2.0,
+"parameter3" : 3.0,}
+print(type(params))
+print(params)
 ```
 
 ***
@@ -416,20 +425,28 @@ print(type(params))print(params)
 <a name="ind-practice1"></a>
 ## Independent Practice: Applying Python Pseudo-code to Sample Data (20 mins)
 
-Pseudocode is a language very close to English that allows us to represent a program concisely. The only thing you need is a statement to show where you arestarting and where you are ending a program. 
+Pseudocode is a language very close to English that allows us to represent a program concisely. The only thing you need is a statement to show where you are
+starting and where you are ending a program.
 
 > Instructor Note: Run through the following example with the students. Then ask them to tackle problems similar to the ones proposed below.
 
 Calculate and print the average of three numbers: 5, 10, and 15.
 
 ```
-Start	num1 = 5	num2 = 10	num3 = 15	sum = num1 + num2 + num3	average = sum/3.0	print averageEnd
+Start
+	num1 = 5
+	num2 = 10
+	num3 = 15
+	sum = num1 + num2 + num3
+	average = sum/3.0
+	print(average)
+End
 ```
 Proposed problems:
 
-1. Create a complete program that will calculate the area circle with radius r. 
+1. Create a complete programme that will calculate the area circle with radius r.
 2. Calculate and print the square of a number. If the number is larger then 10 also calculate the calculate the cube.
-3. List the letters in the sentence "Python is awesome" 
+3. List the letters in the sentence "Python is awesome"
 
 ***
 
@@ -439,11 +456,11 @@ Proposed problems:
 <a name="intro2"></a>
 ## Introduction: Python Programming Fundamentals (15 mins)
 
-> Intructor Note: Remind the students about the concepts learnt in the first part of the workshop. Review the first Python code introduced and the types you have covered.
+> Instructor Note: Remind the students about the concepts learnt in the first part of the workshop. Review the first Python code introduced and the types you have covered.
 
 > Instructor Note: Start a Jupyter notebook and remind the students how to use it.
 
-### Instructions for students 
+### Instructions for students
 We recommend using a Jupyter notebook for this guided practice. This makes it easier for all as it is homogenous for various environments (mac, win, linux).
 
 1. Open Jupyter: in a terminal type
@@ -458,19 +475,25 @@ We recommend using a Jupyter notebook for this guided practice. This makes it ea
 **If**
 
 ```
-A = 10B = 100if A>B: 
-	print("A is larger than B")elif A==B: 
-	print("A is equal to B")else:	print("A is smaller than B")
+A = 10
+B = 100
+if A>B:
+	print("A is larger than B")
+elif A==B:
+	print("A is equal to B")
+else:
+	print("A is smaller than B")
 ```
 
 **For loop**
 
 ```
-for x in [1,2,3]:    print(x)
-    
-for key, value in params.items(): 
+for x in [1,2,3]:
+    print(x)
+
+for key, value in params.items():
     print(key + " = " + str(value))
-    
+
 # List comprehension
 l1 = [x**2 for x in range(0,5)]
 ```
@@ -478,9 +501,11 @@ l1 = [x**2 for x in range(0,5)]
 **Functions**
 
 ```
-def square(x): 
-	"""	Return the square of x. 
-	"""	return x ** 2
+def square(x):
+	"""
+	Return the square of x.
+	"""
+	return x ** 2
 ```
 
 ***
@@ -488,7 +513,7 @@ def square(x):
 <a name="demo2"></a>
 ## Demo: Writing Programs in Python (15 mins)
 
-Show the students how to put together a programme in Python. 
+Show the students how to put together a programme in Python.
 
 Python is an interpreted language, which means you can run the program as soon as you make changes to the file. This makes iterating, revising, and troubleshooting programs is much quicker than many other languages.
 
@@ -501,10 +526,10 @@ Python is an interpreted language, which means you can run the program as soon a
 
 ```
 
-# It is possible to invoke the terminal 
-# with the use of "!" (bang). For example 
-# a list of the # exisiting files under 
-# the current path can be obtained 
+# It is possible to invoke the terminal
+# with the use of "!" (bang). For example
+# a list of the # existing files under
+# the current path can be obtained
 # as follows:
 
 !ls
@@ -526,16 +551,16 @@ city_populations = pd.Series([5000000,250000,100000,
 
 
 city_table = pd.DataFrame( {'cities': cities,  
-             'states': states, 
-             'city_avg_incomes':city_avg_incomes, 
-             'city_populations':city_populations 
+             'states': states,
+             'city_avg_incomes':city_avg_incomes,
+             'city_populations':city_populations
               } )
 
 city_table.head()
 
 
-# We can create a column to state the 
-# population in millions and another 
+# We can create a column to state the
+# population in millions and another
 # one for the income in thousands
 
 city_table['pop_in_millions'] = city_table['city_populations'].apply(
@@ -561,11 +586,11 @@ city_table.describe()
 
 # Visualising Data
 
-# Display the plots in the notebook with 
+# Display the plots in the notebook with
 #the following command
 
 %pylab inline
-# Import the graphing libraries we will use 
+# Import the graphing libraries we will use
 import matplotlib.pyplot as plt
 
 city_table['income_in_k'].plot(kind='bar')
@@ -585,24 +610,24 @@ Given your interests and knowledge, which are you more interested in learning ab
 - practical applications of python, or
 - python fundamentals?
 
-> Instructor Note: 
+> Instructor Note:
 > ### ACTIVITY CHOICES
-> 
+>
 > You can chose either of the two options outlined below. You can do this running a discussion with the students or a poll? For instance - *which are you more interested in learning about - python fundamentals or practical applications of python?*
-> 
+>
 > #### OPTION 1
-> 
+>
 > You can use the [Iris Dataset notebook included in the materials](./code/Python101_Part2_IndPractice.ipynb) to follow up the introduction to pandas in the previous section. Note that the notebook makes reference to the [Iris Dataset included here](./code/data/iris.csv).
-> 
+>
 > This activity lets the students to see practical applications of python  
-> 
+>
 > #### OPTION 2
 >  Alternatively, you can tackle programming tasks to cover the python fundamentals covered earlier on. See the suggestions below:
 
 ### Suggested programming tasks (Option 2)
 
 > Instructor Note:
-> 
+>
 > Depending on the size and abilities of the class you can ask students to tackle the tasks individually or in groups.
 >  
 > 1. **Individually**: Each student tackles the tasks and discuss the answers in pairs before discussing with the entire class.
@@ -617,7 +642,7 @@ Given your interests and knowledge, which are you more interested in learning ab
 ```python
 def gr2oz(x):
 	return 28.3495231 * x
-	
+
 grams = 10
 ounces = gr2oz(grams)
 print(ounces)
@@ -626,16 +651,18 @@ print(ounces)
 
 <details>
 <summary>
-2. Read in a Fahrenheit temperature. Calculate and display the equivalent centigrade temperature. The following formula is used for the conversion:`C = (5 / 9) * (F – 32)`
+2. Read in a Fahrenheit temperature. Calculate and display the equivalent centigrade temperature. The following formula is used for the conversion:
+
+`C = (5 / 9) * (F – 32)`
 </summary>
 ```python
 def F2C(F):
     return (5.0/9.0) * (F - 32)
-    
+
 f=86
 c= F2C(f)
 
-print("{0} Farenheit is {1} centigrade".format(f,c))
+print("{0} Fahrenheit is {1} centigrade".format(f,c))
 ```
 </details>
 
@@ -648,7 +675,7 @@ print("{0} Farenheit is {1} centigrade".format(f,c))
 ```python
 def compound_interest(P, R, N):
     return P * (1 + R)**N
-    
+
 P = 1000
 R = 0.1
 N = 2
@@ -666,7 +693,7 @@ print(Interest)
 ## Conclusion: Review + Recap Topics (10 mins)
 
 > Instructor Note:
-> 
+>
 > ### Review Topics Covered
 >  
 > First restate learning objectives and describe how we met them.
@@ -675,19 +702,19 @@ In the workshop you have covered the following topics:
 
 * Discuss the history of Python and its use across different industries.
 * Compare Python with programming languages.
-* The benefits of a Python workflow 
+* The benefits of a Python workflow
 * Python programming fundamentals.
 * Use Python code to solve real world data problems.
 
 > Instructor Note:
-> 
+>
 > ### Review Deliverables
-> 
->  Use this to encourage dicusion, e.g. ask students to generate takeaways 
+>
+>  Use this to encourage discussion, e.g. ask students to generate takeaways
 
 **Discussion points**
 
-- What did we learn about python? 
+- What did we learn about python?
 - How does it compare to other programming languages? (C++, java, etc)
 
 **Takeaways**
@@ -716,11 +743,11 @@ In the workshop you have covered the following topics:
 
 Encourage the students to continue learning by producing a plan based on the topics discussed in the workshop.
 
-Suggest sonme resources such as books, podcasts, GA courses, etc.
+Suggest some resources such as books, podcasts, GA courses, etc.
 
 #### Q & A
 
-> Instructor Notes: Encourage the students to share any thoughts or questions before closing the session. 
+> Instructor Notes: Encourage the students to share any thoughts or questions before closing the session.
 
 
 ***
