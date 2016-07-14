@@ -16,7 +16,10 @@ These tools aren't required, but offer additional functionality that students ma
 
 - Install a popular text editor, like [Atom](https://atom.io) or [Sublime Text 3](http://www.sublimetext.com).
 <<<<<<< HEAD
+<<<<<<< HEAD
 - If you are using Anaconda, [Spyder](https://pythonhosted.org/spyder/) is included (Mac, Win, Linux)
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 
