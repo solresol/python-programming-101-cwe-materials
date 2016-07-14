@@ -4,13 +4,14 @@ Welcome to General Assembly's Python Programming 101. This repository contains a
 
 ## Value Proposition
 
-<!--  Taken from Confluence -->
+Whether you have experience in programming or are looking to get started for the first time, getting involved in the Python community will put you on the fast track to success in a variety of data-related fields. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+In this workshop, you’ll learn all about Python - including how to get started, what advantages and disadvantages Python provides as a programming language, the essentials of programming in Python, and what tools are available to analyze and work with data in Python.
+
+By the end of our workshop, you’ll be able to define python programming fundamentals, explain the common python libraries used in data analysis, discuss how python can be applied to a data workflow, and practice applying your newfound Python skills to solve a sample real world problem.
+
 
 #### Students Will Learn How To:
-
-<!-- a bulleted list of learning goals from Confluence -->
 
 - Discuss the history of Python and its use across different industries.
 - Define how Python compares to other programming languages.
@@ -20,7 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ---
 
-Included in this repository:
+## Included in this repository:
 
 1. [**Onboarding Materials**](./curriculum/01-onboarding) - Background context & instructions for how to make use of our materials.
 
