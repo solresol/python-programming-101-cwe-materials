@@ -225,19 +225,65 @@ In Object Oriented Programming a *class* is a template definition of the methods
 > ### OTHER EXAMPLES
 > You are encouraged to use other specific examples of an element python does particularly well, using a simple statement or function. This depends on your familiarity with other programming languages, as wel with the abilities of the students in your class.
 
+#### Python interactive shell v scripts
+
+In the example shown above, we are assuming that we are using an interactive shell, i.e. we are writing code that is executed immediately by the Python interpreter and wer are able to "interact" with the results of the commands we pass. We can do this via:
+
+- python shell: Look and feel similar to a terminal shell. This can be launched with: 
+
+```
+> python
+```
+
+- ipython shell: Look and feel is more interesting than a plain terminal, providing syntax colouring and shortcuts to interact with our code. This can be launched with: 
+
+```
+> ipython
+```
+
+- jupyter notebook: Uses a web interface that let's us use formatting along side our code and we highly recommend using it. This can be launched with:
+
+```
+> jupyter notebook
+```
+
+Alternatively, there may be instances where we do not need to interact with our Python code. Instead we may want to execute a program, in bach mode for instance, and simply get the results at the end of the execution. 
+
+In those cases we need to create a Python script (we can use any plain text editor of our choice) and save the code in a file with extension `.py`. 
+
+A barebones script for the "Hello World!" program (saved to a file called `hi.py`) looks like this:
+
+```
+print("Hello world!")
+```
+
+To run the script by passing it as a command to the Python interpreter we need to write:
+
+```
+> python hi.py
+```
 
 
-Or alternatively:
+Plese note that all of the code that is at indentation level 0 gets executed. Functions and classes that are defined but not on at the 0-th level indentation are not executed.
+
+Unlike other languages, there's no `main()` function that gets run automatically - the `main()` function is implicitly all the code at the top level.
+
+In this case, the top-level code is an if block.  `__name__` is a built-in variable which evaluates to the name of the current module. We can test whether our script is being run directly or being imported by something else by testing
+
+```
+if __name__ == "__main__":
+    ...
+```
+
+A more sophisticated vesion of the "Hello World!" script is therefore:
 
 ```	
 	def main():
 	    print("hello world")
 	    
-	if __name__ = '__main__':
+	if __name__ == '__main__':
 	    main()
 ```	
-
-
 
 ***
 
