@@ -616,7 +616,21 @@ print(ounces)
 ```
 </details>
 
-2. Read in a Fahrenheit temperature. Calculate and display the equivalent centigrade temperature. The following formula is used for the conversion:`C = 5 / 9 * (F – 32)`
+<details>
+<summary>
+2. Read in a Fahrenheit temperature. Calculate and display the equivalent centigrade temperature. The following formula is used for the conversion:`C = (5 / 9) * (F – 32)`
+</summary>
+```python
+def F2C(F):
+    return (5.0/9.0) * (F - 32)
+    
+f=86
+c= F2C(f)
+
+print("{0} Farenheit is {1} centigrade".format(f,c))
+```
+
+</details>
 
 3. Calculate the amount obtained by investing the principal P for N years at the rate of R. The flowchart in Figure 1.5 shows the sequence of steps necessary to accomplish this task. The following formula is used for the conversion:
 
