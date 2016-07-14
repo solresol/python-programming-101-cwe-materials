@@ -578,7 +578,28 @@ city_table['income_in_k'].plot(kind='bar')
 <a name="ind-practice2"></a>
 ## Independent Practice: Applying Your Own Python Workflow (20 mins)
 
-> Instructor Note: You can use the Iris Data set example included in the materials to follow up the introduction to pandas in the previous section. Alternatively, you can tackle programming tasks like the ones suggested below:
+### DISCUSION
+
+Given your interests and knowledge, which are you more interested in learning about:
+
+- practical applications of python, or
+- python fundamentals?
+
+> Instructor Note: 
+> ### ACTIVITY CHOICES
+> 
+> You can chose either of the two options outlined below. You can do this running a discussion with the students or a poll? For instance - *which are you more interested in learning about - python fundamentals or practical applications of python?*
+> 
+> #### OPTION 1
+> 
+> You can use the [Iris Dataset notebook included in the materials](./code/Python101_Part2_IndPractice.ipynb) to follow up the introduction to pandas in the previous section. Note that the notebook makes reference to the [Iris Dataset included here](./code/data/iris.csv).
+> 
+> This activity lets the students to see practical applications of python  
+> 
+> #### OPTION 2
+>  Alternatively, you can tackle programming tasks to cover the python fundamentals covered earlier on. See the suggestions below:
+
+### Suggested programming tasks (Option 2)
 
 1. A recipe you are reading states how many grams you need for the ingredient. Unfortunately, your store only sells items in ounces. Create a program to convert grams to ounces.
 
