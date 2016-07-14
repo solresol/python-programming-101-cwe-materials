@@ -439,12 +439,27 @@ Start
 	num3 = 15
 	sum = num1 + num2 + num3
 	average = sum/3.0
-	print(average)
+	print average
 End
 ```
-Proposed problems:
 
+### Proposed problems:
+
+<details>
+<summary>
 1. Create a complete programme that will calculate the area circle with radius r.
+</summary>
+```python
+Start
+	pi = 3.14159265359
+	radius = r
+	area = pi * r * r
+	print area
+End
+```
+
+</details>
+
 2. Calculate and print the square of a number. If the number is larger than 10 also calculate the cube.
 3. List the letters in the sentence "Python is awesome"
 
