@@ -304,6 +304,15 @@ See file here:
 > ### IDE to be used 
 > You can show the following commands and concepts using a python/ipython shell. We encourage you to use a **Jupyter notebook** in the second part of the workshop.
 
+### Instructions for students 
+We recommend using a Jupyter notebook for this guided practice. This makes it easier for all as it is homogenous for various environments (mac, win, linux).
+
+1. Open Jupyter: in a terminal type
+`jupyter notebook`
+2. Navigate to an appropriate folder where your work will be saved
+3. On the top-right-hand-side click in the button called "New" and select "Python 2"
+4. Voilà, you are ready to type the commands we will cover below
+
 **Packages**
 
 Libraries of code written to solve particular set of problems
