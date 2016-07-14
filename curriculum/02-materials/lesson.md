@@ -601,9 +601,20 @@ Given your interests and knowledge, which are you more interested in learning ab
 
 ### Suggested programming tasks (Option 2)
 
-1. A recipe you are reading states how many grams you need for the ingredient. Unfortunately, your store only sells items in ounces. Create a program to convert grams to ounces.
+<details>
+<summary>1. A recipe you are reading states how many grams you need for the ingredient. Unfortunately, your store only sells items in ounces. Create a program to convert grams to ounces.
 
 `ounces = 28.3495231 * grams`
+</summary>
+```python
+def gr2oz(x):
+	return 28.3495231 * x
+	
+grams = 10
+ounces = gr2oz(grams)
+print(ounces)
+```
+</details>
 
 2. Read in a Fahrenheit temperature. Calculate and display the equivalent centigrade temperature. The following formula is used for the conversion:`C = 5 / 9 * (F – 32)`
 
