@@ -418,7 +418,7 @@ print(type(params))print(params)
 
 Pseudocode is a language very close to English that allows us to represent a program concisely. The only thing you need is a statement to show where you arestarting and where you are ending a program. 
 
-> Instructor Note: Run through the following example wiht the students. Then ask them to tackle problems similar to the ones proposed below.
+> Instructor Note: Run through the following example with the students. Then ask them to tackle problems similar to the ones proposed below.
 
 Calculate and print the average of three numbers: 5, 10, and 15.
 
@@ -441,7 +441,16 @@ Proposed problems:
 
 > Intructor Note: Remind the students about the concepts learnt in the first part of the workshop. Review the first Python code introduced and the types you have covered.
 
-> Instructore Note: Start a Jupyter notebook and show the students how to use it.
+> Instructor Note: Start a Jupyter notebook and remind the students how to use it.
+
+### Instructions for students 
+We recommend using a Jupyter notebook for this guided practice. This makes it easier for all as it is homogenous for various environments (mac, win, linux).
+
+1. Open Jupyter: in a terminal type
+`jupyter notebook`
+2. Navigate to an appropriate folder where your work will be saved
+3. On the top-right-hand-side click in the button called "New" and select "Python 2"
+4. Voilà, you are ready to type the commands we will cover below
 
 
 ### Control Flow
