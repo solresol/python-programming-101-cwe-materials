@@ -457,11 +457,43 @@ Start
 	print area
 End
 ```
-
 </details>
 
+<details>
+<summary>
 2. Calculate and print the square of a number. If the number is larger than 10 also calculate the cube.
+</summary>
+```python
+Start
+	number = n
+	square = n^2
+	print square 
+	
+	if n > 10 then
+		cube n^3
+		print cube
+	else
+		do nothing
+	end if
+
+End
+```
+</details>
+
+<details>
+<summary>
 3. List the letters in the sentence "Python is awesome"
+</summary>
+```python
+Start
+	MyString = "Python is awesome"
+	
+	for each letter in MyString
+		print letter
+	end for
+End
+```
+</details>
 
 ***
 
