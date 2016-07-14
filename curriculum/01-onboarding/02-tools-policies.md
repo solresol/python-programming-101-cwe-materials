@@ -15,7 +15,10 @@ Instead, General Assembly provides a core set of objectives for this workshop, a
 These tools aren't required, but offer additional functionality that students may find helpful!
 
 - Install a popular text editor, like [Atom](https://atom.io) or [Sublime Text 3](http://www.sublimetext.com).
+<<<<<<< HEAD
 - If you are using Anaconda, [Spyder](https://pythonhosted.org/spyder/) is included (Mac, Win, Linux)
+=======
+>>>>>>> master
 
 
 ## Technology Policy
