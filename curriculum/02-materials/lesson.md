@@ -47,7 +47,7 @@ creator:
 | 15 min  | [Introduction](#intro2)   | Python Programming Fundamentals |
 | 15 min  | [Demo](#demo2)  | Writing Programs in Python   |
 | 20 min  | [Guided Practice](#guided-practice2)  | Cleaning Data with Python  |
-| 20 min  | [Independent Practice](#ind-practice2)  | Applying Your Own Python Workflow |
+| 20 min  | [Independent Practice](#ind-practice2)  | More Python Practice |
 | 10 min  | [Conclusion](#conclusion) | Review + Recap |
 | 10 min  | [Takeaways](#takeaway) | Learning Plan + Q&A |
 
@@ -601,7 +601,7 @@ city_table['income_in_k'].plot(kind='bar')
 ***
 
 <a name="ind-practice2"></a>
-## Independent Practice: Applying Your Own Python Workflow (20 mins)
+## Independent Practice: More Python Practice (20 mins)
 
 ### DISCUSION
 
@@ -685,6 +685,10 @@ Interest = compound_interest(P, R, N)
 print(Interest)
 ```
 </details>
+
+>Instructor Note:
+> ### FOLLOW UP ACTIVITY
+>Once the students have finished with the 3 tasks above, ask them to transform the pseudocode they completed in the [Independent Practice](#ind-practice1) of the first part.
 
 
 ***
