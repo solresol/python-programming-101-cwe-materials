@@ -629,12 +629,27 @@ c= F2C(f)
 
 print("{0} Farenheit is {1} centigrade".format(f,c))
 ```
-
 </details>
 
-3. Calculate the amount obtained by investing the principal P for N years at the rate of R. The flowchart in Figure 1.5 shows the sequence of steps necessary to accomplish this task. The following formula is used for the conversion:
+<details>
+<summary>
+3. Calculate the amount obtained by investing the principal P for N years at the rate of R. The following formula is used for the conversion:
 
 `A = P * (1 + R) ^ N`
+</summary>
+```python
+def compound_interest(P, R, N):
+    return P * (1 + R)**N
+    
+P = 1000
+R = 0.1
+N = 2
+
+Interest = compound_interest(P, R, N)
+
+print(Interest)
+```
+</details>
 
 
 ***
