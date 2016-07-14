@@ -504,6 +504,14 @@ End
 ## Introduction: Python Programming Fundamentals (15 mins)
 
 > Instructor Note: Remind the students about the concepts learnt in the first part of the workshop. Review the first Python code introduced and the types you have covered.
+> 
+> # DISCUSSION
+> 
+> 1. Start by surveying what students already know or don't know
+> 
+> 2. Then state which fundamentals you are going to cover
+> 
+> 3. Give a high level overview of what these fundamentals do (e.g. allow programs to store and remember information, etc)
 
 > Instructor Note: Start a Jupyter notebook and remind the students how to use it.
 
@@ -515,6 +523,31 @@ We recommend using a Jupyter notebook for this guided practice. This makes it ea
 2. Navigate to an appropriate folder where your work will be saved
 3. On the top-right-hand-side click in the button called "New" and select "Python 2"
 4. Voilà, you are ready to type the commands we will cover below
+
+## Programming fundamentals
+
+Understanding core programming concepts and why they are used is just as important as knowing how to write code. 
+
+Before we start, let us review some basic concepts of any programming language:
+
+- **Variables**: A variable is a storage location and an associated symbolic name which contains some known or unknown quantity or information, a value. Variables can be of different `types`
+	- `r = 3` 
+
+- **Control Structures**: A control structure is a block of programming that analyzes variables and chooses a direction in which to go based on given parameters. The term flow control details the direction the program takes (which way program control “flows”). Hence it is the basic decision-making process in computing; flow control determines how a computer will respond when given certain conditions and parameters. Some typical structures include
+	- If statement
+	- For loop
+	- Functions 
+
+- **Data Structures**: Data structure is a particular way of storing and organising data in a computer so that it can be used efficiently. Some examples include:
+	- Lists
+	- Tuples
+	- Arrays
+	- Matrices
+	- Dataframes
+
+- **Syntax**: the syntax of a programming language is the set of rules that define the combinations of symbols that are considered to be correctly structured programs in that language
+
+The interrelationship of these elements make it possible for us to write programs to implement algorithms and solve problems
 
 
 ### Control Flow
