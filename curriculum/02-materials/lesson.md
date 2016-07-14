@@ -203,6 +203,24 @@ The Python version of this program is very simple: one line of code that will `p
 
 The C++ version does exactly the same, but it requires us to write more information. For example we need to define a `main` function, we have to be careful with the use of punctuation (notice the semicolons at the end of some of the lines) and `cout` is not very understandable in plain terms. 
 
+Let us see the same program in Java:
+
+- **Java**
+
+```
+public class HelloWorld
+{
+    public static void main (String[] args)
+    {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+Notice that in the Java versionm we define the code inside the context of class.
+
+In Object Oriented Programming a *class* is a template definition of the methods and variables in a particular kind of object. In other words, an object is a specific instance of a class: it contains actual values instead of variables.
+
 > Instructor Note: 
 > ### OTHER EXAMPLES
 > You are encouraged to use other specific examples of an element python does particularly well, using a simple statement or function. This depends on your familiarity with other programming languages, as wel with the abilities of the students in your class.
