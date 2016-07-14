@@ -445,7 +445,7 @@ End
 Proposed problems:
 
 1. Create a complete programme that will calculate the area circle with radius r.
-2. Calculate and print the square of a number. If the number is larger then 10 also calculate the calculate the cube.
+2. Calculate and print the square of a number. If the number is larger than 10 also calculate the cube.
 3. List the letters in the sentence "Python is awesome"
 
 ***
