@@ -168,16 +168,44 @@ Before we dive in, a bit about you!
 
 **Python v other languages**
 
+> Instructor Note: 
+> ### ACTIVITY AND DISCUSSION
+> What other languages have the students heard of? what are they familiar with, if any? Then ask how they think those might compare to Python.
+
 [Comparing Python to Other Languages](https://www.python.org/doc/essays/comparisons/)
 
-Python is often compared to other interpreted languages such as Java, JavaScript, Perl, Tcl, or Smalltalk. Comparisons to C++, Common Lisp and Scheme can also be enlightening
+Python is often compared to other interpreted languages such as Java, JavaScript, Perl, Tcl, or Smalltalk. Comparisons to C++, Common Lisp and Scheme can also be enlightening.
 
+#### EXAMPLE 
+Let us what a Python program looks like, starting with the typical "Hello World!" program: In essence we are writing code to print the message "Hello World!" in the screen.
 
-Your first program:
+- **Python**
 
 ```
 	print("hello world")
 ```
+
+- **C++**
+
+```
+#include<iostream>
+	using namespace std;
+
+	int main()
+	{
+		cout << "Hello World!";
+		return 0;
+	}
+
+```
+
+The Python version of this program is very simple: one line of code that will `print` the string `'Hello World!`.  It is easy to read and understand.
+
+The C++ version does exactly the same, but it requires us to write more information. For example we need to define a `main` function, we have to be careful with the use of punctuation (notice the semicolons at the end of some of the lines) and `cout` is not very readable. 
+
+> Instructor Note: You are encouraged to use other  specific examples of an element python does particularly well, using a simple statement or function. This depends on your familiarity with other programming languages, as wel with the abilities of the students in your class.
+
+
 
 Or alternatively:
 
