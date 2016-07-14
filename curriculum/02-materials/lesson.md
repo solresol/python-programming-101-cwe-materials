@@ -23,15 +23,10 @@ creator:
 
 - Bring a laptop with [Python 2.7](#) and [Anaconda](#) installed.
 - If you are using a PC, install [git-bash terminal](#).
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 - Curiosity and open mind
-=======
-- Optional: Install a text editor like Sublime Text 3 or Atom on your computer.
->>>>>>> master
-=======
-- Optional: Install a text editor like Sublime Text 3 or Atom on your computer.
->>>>>>> master
+
+- Optional: Install a text editor like Sublime Text 3 or Atom on your computer. If you are using Anaconda, Spyder is included in the distribution.
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
