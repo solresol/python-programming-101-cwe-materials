@@ -189,23 +189,23 @@ Let us what a Python program looks like, starting with the typical "Hello World!
 
 ```
 #include<iostream>
-	using namespace std;
+using namespace std;
 
-	int main()
-	{
-		cout << "Hello World!";
-		return 0;
-	}
+int main()
+{
+	cout << "Hello World!";
+	return 0;
+}
 
 ```
 
 The Python version of this program is very simple: one line of code that will `print` the string `'Hello World!`.  It is easy to read and understand.
 
-The C++ version does exactly the same, but it requires us to write more information. For example we need to define a `main` function, we have to be careful with the use of punctuation (notice the semicolons at the end of some of the lines) and `cout` is not very readable. 
+The C++ version does exactly the same, but it requires us to write more information. For example we need to define a `main` function, we have to be careful with the use of punctuation (notice the semicolons at the end of some of the lines) and `cout` is not very understandable in plain terms. 
 
 > Instructor Note: 
-> # OTHER EXAMPLES
-> You are encouraged to use other  specific examples of an element python does particularly well, using a simple statement or function. This depends on your familiarity with other programming languages, as wel with the abilities of the students in your class.
+> ### OTHER EXAMPLES
+> You are encouraged to use other specific examples of an element python does particularly well, using a simple statement or function. This depends on your familiarity with other programming languages, as wel with the abilities of the students in your class.
 
 
 
