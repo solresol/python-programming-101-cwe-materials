@@ -617,17 +617,47 @@ Given your interests and knowledge, which are you more interested in learning ab
 <a name="conclusion"></a>
 ## Conclusion: Review + Recap Topics (10 mins)
 
-> Review Deliverables
-
-> Review Topics Covered
+> Instructor Note:
+> 
+> ### Review Topics Covered
+>  
+> First restate learning objectives and describe how we met them.
 
 In the workshop you have covered the following topics:
 
 * Discuss the history of Python and its use across different industries.
 * Compare Python with programming languages.
-* Thebenefits of a Python workflow 
+* The benefits of a Python workflow 
 * Python programming fundamentals.
 * Use Python code to solve real world data problems.
+
+> Instructor Note:
+> 
+> ### Review Deliverables
+> 
+>  Use this to encourage dicusion, e.g. ask students to generate takeaways 
+
+**Discussion points**
+
+- What did we learn about python? 
+- How does it compare to other programming languages? (C++, java, etc)
+
+**Takeaways**
+
+* Python is a popular, flexible programming language
+	- Easy to use
+	- Readable
+	- Powerful
+* Python has application in many areas
+	- From drug discovery to gravitational wave detection
+	- Business and R&D
+* Understand the basics of Python programming
+	- types
+	- variables
+	- functions
+	- data manipulation
+	- etc
+* Use Python to solve actual problems
 
 ***
 
