@@ -601,6 +601,14 @@ Given your interests and knowledge, which are you more interested in learning ab
 
 ### Suggested programming tasks (Option 2)
 
+> Instructor Note:
+> 
+> Depending on the size and abilities of the class you can ask students to tackle the tasks individually or in groups.
+>  
+> 1. **Individually**: Each student tackles the tasks and discuss the answers in pairs before discussing with the entire class.
+> 2. **Pairs**: Ask the students to answer the problems in  pair and discuss the answers with the entire class
+> 3. **For larger classes**, you can split the students into 3 groups and assign one problem per group then have the groups present back how to do it to the rest of the class
+
 <details>
 <summary>1. A recipe you are reading states how many grams you need for the ingredient. Unfortunately, your store only sells items in ounces. Create a program to convert grams to ounces.
 
