@@ -251,6 +251,14 @@ Alternatively, there may be instances where we do not need to interact with our 
 
 In those cases we need to create a Python script (we can use any plain text editor of our choice) and save the code in a file with extension `.py`. 
 
+Anaconda distributions (Mac, Win, Linux) come with an IDE called `Spyder`. 
+
+Other IDEs:
+
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+- Eclipse with [PyDev](http://www.pydev.org)
+- [Atom](https://atom.io)
+
 A barebones script for the "Hello World!" program (saved to a file called `hi.py`) looks like this:
 
 ```
@@ -262,7 +270,6 @@ To run the script by passing it as a command to the Python interpreter we need t
 ```
 > python hi.py
 ```
-
 
 Plese note that all of the code that is at indentation level 0 gets executed. Functions and classes that are defined but not on at the 0-th level indentation are not executed.
 
@@ -286,6 +293,14 @@ A more sophisticated vesion of the "Hello World!" script is therefore:
 ```	
 
 ***
+
+### Demo: Plotly
+
+We will be working in a Jupyter Notebook
+
+See file here:
+[Python_101_Demo_Plotly.ipynb](./code/Python_101_Demo_Plotly.ipynb)
+
 
 <a name="guided-practice1"></a>
 ## Guided Practice: Installing and Configuring Common Python Libraries (20 mins)
