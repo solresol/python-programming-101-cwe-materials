@@ -704,8 +704,17 @@ print(area)
 <a name="guided-practice2"></a>
 ## Guided Practice: Delving into Data with Python (20 mins)
 
-```
+> Instructor Note:
+> 
+> ### IDE suggestion
+> We encourage you to use a Jupyter notebook. It makes it easier to keep the class together as students will be using a common IDE. 
+> 
+> ### Activity
+>  We suggest making the code below available to the students and get them to work in pairs going through the code in the notebook
 
+Let us create a new Jupyter notebook for this practice. We will work in pairs
+
+```python
 # It is possible to invoke the terminal
 # with the use of "!" (bang). For example
 # a list of the # existing files under
