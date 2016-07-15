@@ -69,7 +69,7 @@ Before we dive in, a bit about you!
 
 > Have students introduce themselves: name, what brings them to GA (ask for their current career & any specific goals), & one "fun fact".
 
-> **Example Exercise**: *Have students submit their info one per line on a CSV file (via google doc, etc). Instructors can then use Python to briefly analyze and pull out interesting information (e.g. create dictionary, append, sort, etc).*
+> **Example Exercise**: *Have students submit their info one per line on a CSV file (via google doc, etc). Instructors can then use Python to briefly analyse and pull out interesting information (e.g. create dictionary, append, sort, etc).*
 
 
 #### Our Expectations
@@ -533,7 +533,7 @@ Before we start, let us review some basic concepts of any programming language:
 - **Variables**: A variable is a storage location and an associated symbolic name which contains some known or unknown quantity or information, a value. Variables can be of different `types`
 	- `r = 3` 
 
-- **Control Structures**: A control structure is a block of programming that analyzes variables and chooses a direction in which to go based on given parameters. The term flow control details the direction the program takes (which way program control “flows”). Hence it is the basic decision-making process in computing; flow control determines how a computer will respond when given certain conditions and parameters. Some typical structures include
+- **Control Structures**: A control structure is a block of programming that analyses variables and chooses a direction in which to go based on given parameters. The term flow control details the direction the program takes (which way program control “flows”). Hence it is the basic decision-making process in computing; flow control determines how a computer will respond when given certain conditions and parameters. Some typical structures include
 	- If statement
 	- For loop
 	- Functions 
@@ -720,7 +720,7 @@ print(area)
 
 Let us create a new Jupyter notebook for this practice. We will work in pairs.
 
-1. Save the file called [Python101_Part2_GuidedPractice.ipynb](./code/Python101_Part2_GuidedPractice.ipynb) in a known location in your file systme
+1. Save the file called [Python101_Part2_GuidedPractice.ipynb](./code/Python101_Part2_GuidedPractice.ipynb) in a known location in your file system
 2. Start Jupyter and navigate to the location where you saved the file
 3. Open the file 
 4. Voilà,  you can start the Guided Practice
@@ -889,7 +889,7 @@ Suggest some resources such as books, podcasts, GA courses, etc.
 * For programmers new to python
 	*  Read the information in [Moving to Python From Other Languages](https://wiki.python.org/moin/MovingToPythonFromOtherLanguages)
 	* [Python for java developers](https://antrix.net/static/pages/python-for-java/online/)
-	* [Python for MATLAB userd](http://bastibe.de/2013-01-20-a-python-primer-for-matlab-users.html)
+	* [Python for MATLAB users](http://bastibe.de/2013-01-20-a-python-primer-for-matlab-users.html)
 
 * For more seasoned programmers:
 	* Challenge yourself by tackling the [Python Challenge](http://www.pythonchallenge.com) 
