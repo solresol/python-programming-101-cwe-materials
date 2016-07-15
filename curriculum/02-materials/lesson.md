@@ -558,6 +558,27 @@ The interrelationship of these elements make it possible for us to write program
 
 **If**
 
+An `if` statement is a conditional structure that, if proved true, performs a function or displays information. 
+
+Think of this as a decision that moves the flow of your program depending on the answer to a TRUE-FALSE question. 
+
+```
+IF a person is older than 18
+THEN they can drive
+ELSE they cannot drive
+```
+
+We can express the pseudo-code above into Python as follows:
+
+```
+if age_person > 18:
+	return "They can drive"
+else:
+	return "They cannot drive"	
+```
+
+Let us see another example:
+
 ```
 A = 10
 B = 100
@@ -568,6 +589,8 @@ elif A==B:
 else:
 	print("A is smaller than B")
 ```
+
+##### Activity: Can you explain what the code above is doing?
 
 **For loop**
 
