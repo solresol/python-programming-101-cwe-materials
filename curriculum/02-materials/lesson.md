@@ -552,6 +552,10 @@ The interrelationship of these elements make it possible for us to write program
 
 ### Control Flow
 
+* The term flow control details the direction the program takes (which way program control “flows”). 
+
+* It determines how a computer will respond when given certain conditions and parameters.
+
 **If**
 
 ```
