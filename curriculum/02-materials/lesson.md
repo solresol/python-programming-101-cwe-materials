@@ -688,6 +688,10 @@ Python is an *interpreted* language, which means you can run the program as soon
 1. Create a complete programme that will calculate the area circle with radius r.
 </summary>
 ```python
+# Explain that the mathematical constant Pi
+# is included in the math module
+# We are importing the value of pi from 
+# that module - Easy to read, right?
 from math import pi
 
 def circ_area(r):
