@@ -710,85 +710,20 @@ print(area)
 
 > Instructor Note:
 > 
+> Use the Jupyter notebook [Python101_Part2_GuidedPractice.ipynb](./code/Python101_Part2_GuidedPractice.ipynb) 
+> 
 > ### IDE suggestion
 > We encourage you to use a Jupyter notebook. It makes it easier to keep the class together as students will be using a common IDE. 
 > 
 > ### Activity
 >  We suggest making the code below available to the students and get them to work in pairs going through the code in the notebook
 
-Let us create a new Jupyter notebook for this practice. We will work in pairs
+Let us create a new Jupyter notebook for this practice. We will work in pairs.
 
-```python
-# It is possible to invoke the terminal
-# with the use of "!" (bang). For example
-# a list of the # existing files under
-# the current path can be obtained
-# as follows:
-
-!ls
-
-import pandas as pd
-import numpy as np
-
-states = pd.Series(['GA','GA','GA','GA','GA',
-"NY","NY","NY","FL","FL"])
-cities  = pd.Series(['Atlanta','Lilburn','Athens',
-'Auburn','Augusta','NYC','Buffalo','Albany',
-'Miami','Tallahassee'])
-
-city_avg_incomes = pd.Series([55000,40000,50000,45000,
-30000,60000,57000,56000,65000,40000])
-city_populations = pd.Series([5000000,250000,100000,
-50000, 200000,6000000,3000000,400000,
-4000000,5000000])
-
-
-city_table = pd.DataFrame( {'cities': cities,  
-             'states': states,
-             'city_avg_incomes':city_avg_incomes,
-             'city_populations':city_populations
-              } )
-
-city_table.head()
-
-
-# We can create a column to state the
-# population in millions and another
-# one for the income in thousands
-
-city_table['pop_in_millions'] = city_table['city_populations'].apply(
-    lambda x: float(x)/1000000)
-
-city_table['income_in_k'] =
-city_table['city_avg_incomes'].
-apply(lambda x: float(x)/1000)
-
-city_table
-
-city_table.shape
-
-city_table[0:4][["pop_in_millions",'income_in_k']]
-
-city_table.sort_values('pop_in_millions',
-ascending=0)
-
-city_table[(city_table['income_in_k']<=30)]
-
-city_table.describe()
-
-
-# Visualising Data
-
-# Display the plots in the notebook with
-#the following command
-
-%pylab inline
-# Import the graphing libraries we will use
-import matplotlib.pyplot as plt
-
-city_table['income_in_k'].plot(kind='bar')
-
-```
+1. Save the file called [Python101_Part2_GuidedPractice.ipynb](./code/Python101_Part2_GuidedPractice.ipynb) in a known location in your file systme
+2. Start Jupyter and navigate to the location where you saved the file
+3. Open the file 
+4. Voilà,  you can start the Guided Practice
 
 
 ***
