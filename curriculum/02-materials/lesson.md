@@ -882,6 +882,21 @@ Encourage the students to continue learning by producing a plan based on the top
 
 Suggest some resources such as books, podcasts, GA courses, etc.
 
+* For beginner programmers:
+	* go through [Learn Python the hard way](http://learnpythonthehardway.org)
+	* read up on and familiarise yourself with the language by going through the tutorials [A Beginner's Python Tutorial](https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial)
+
+* For programmers new to python
+	*  Read the information in [Moving to Python From Other Languages](https://wiki.python.org/moin/MovingToPythonFromOtherLanguages)
+	* [Python for java developers](https://antrix.net/static/pages/python-for-java/online/)
+	* [Python for MATLAB userd](http://bastibe.de/2013-01-20-a-python-primer-for-matlab-users.html)
+
+* For more seasoned programmers:
+	* Challenge yourself by tackling the [Python Challenge](http://www.pythonchallenge.com) 
+
+* If you are interested to apply Python in Data Science
+	* Look at the Data Science workshops and courses in [General Assembly](https://generalassemb.ly/education/data-science?&gclid=CjwKEAjwk6K8BRDM3aCSkdCtzSQSJAA3Vf38leCWKuRFD33jAqNkjHhIqVTVv6i6PiiBtxse7DW1SRoCFE3w_wcB)
+
 #### Q & A
 
 > Instructor Notes: Encourage the students to share any thoughts or questions before closing the session.
