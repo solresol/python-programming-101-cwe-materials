@@ -556,7 +556,7 @@ The interrelationship of these elements make it possible for us to write program
 
 * It determines how a computer will respond when given certain conditions and parameters.
 
-**If**
+#### **If**
 
 An `if` statement is a conditional structure that, if proved true, performs a function or displays information. 
 
@@ -570,7 +570,7 @@ ELSE they cannot drive
 
 We can express the pseudo-code above into Python as follows:
 
-```
+```python
 if age_person > 18:
 	return "They can drive"
 else:
@@ -579,7 +579,7 @@ else:
 
 Let us see another example:
 
-```
+```python
 A = 10
 B = 100
 if A>B:
@@ -592,22 +592,52 @@ else:
 
 ##### Activity: Can you explain what the code above is doing?
 
-**For loop**
+#### **For loop**
 
+A loop statement in programming performs a predefined set of instructions or tasks while or until a predetermined condition is met. 
+
+Think of this as a repetitive action that has to be performed until further notice. 
+
+``` 
+FOR each user of a service in a list
+   PRINT greet them
 ```
+
+In the pseudo-code above, the condition we are asked to greet each user in a list. We stop the repetition when we reach the end of the list. 
+
+We can express this loop in Python as follows:
+```python
+users = ["Jeff", "Jay", "Theresa"]
+
+for user in users:
+    print("Hello %s" % user)
+```
+
+**Tip**: When creating a for loop, make sure it's condition will always be met to help prevent an endless loop.
+
+Let us see another example. Can you explain what the program is doing?
+
+```python
 for x in [1,2,3]:
     print(x)
 
 for key, value in params.items():
     print(key + " = " + str(value))
+```
 
-# List comprehension
+##### List comprehension
+
+List comprehension is an elegant way to define and create list in Python. It uses a for loop inside the definition of the list itself.
+
+Let us take a look at one, and see if you can figure out what is happening:
+
+```python
 l1 = [x**2 for x in range(0,5)]
 ```
 
-**Functions**
+#### **Functions**
 
-```
+```python
 def square(x):
 	"""
 	Return the square of x.
