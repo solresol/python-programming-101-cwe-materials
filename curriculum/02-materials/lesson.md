@@ -637,12 +637,39 @@ l1 = [x**2 for x in range(0,5)]
 
 #### **Functions**
 
+A function is a group of instructions, also known as a named procedure, used by programming languages to return a single result or a set of results. 
+
+Functions are a convenient way to divide our code into useful blocks, providing us with order, making the code more readable and reusable.
+
+Functions are a key way to define interfaces so programmers can share their code.
+
+Here is how you define a function in python
+
+```
+def function_name(input1, input2...): 
+    1st block of instructions 
+    2nd block of instructions
+    ...
+```
+
+Let us define a function that returns the square of the input value:
+
 ```python
 def square(x):
 	"""
 	Return the square of x.
 	"""
 	return x ** 2
+```
+
+We can call this function as follows:
+
+```python
+var1 = 7
+
+var2 = square(var1)
+
+print(var2)
 ```
 
 ***
