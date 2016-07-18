@@ -244,15 +244,20 @@ In the example shown above, we are assuming that we are using an interactive she
 
 Alternatively, there may be instances where we do not need to interact with our Python code. Instead we may want to execute a program, in bach mode for instance, and simply get the results at the end of the execution.
 
-In those cases we need to create a Python script (we can use any plain text editor of our choice) and save the code in a file with extension `.py`.
+In those cases we need to create a Python script. We can use any plain text editor of our choice and save the code in a file with extension `.py`.
 
-Anaconda distributions (Mac, Win, Linux) come with an IDE called `Spyder`.
+Plain text, as you might have guessed, is rather plain. It supports standard ASCII characters, including numbers, symbols, and spaces, but does not support any type of text formatting. Therefore you cannot apply bold, italic, or underlined styles, and you cannot use different fonts or font sizes in a plain text document.
 
-Other IDEs:
+Some common plain text editors include Atom, NotePad (Win), TextEdit (Mac), Nano (Linux, Mac), NotePad++ (Win) or TextWrangler (Mac).
+
+An alternative to using plain text editors is the use of an integrated development environment (IDE), which  provides comprehensive facilities to computer programmers for software development. A good IDE consists of a source code editor, build automation tools and a debugger as well as intelligent code completion.
+
+Common Python IDEs:
 
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - Eclipse with [PyDev](http://www.pydev.org)
 - [Atom](https://atom.io)
+- Anaconda distributions (Mac, Win, Linux) come with an IDE called `Spyder`.
 
 A barebones script for the "Hello World!" program (saved to a file called `hi.py`) looks like this:
 
