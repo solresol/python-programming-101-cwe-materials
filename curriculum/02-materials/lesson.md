@@ -294,12 +294,30 @@ A more sophisticated version of the "Hello World!" script is therefore:
 
 ***
 
-### Demo: Plotly
+## Demo: Plotly
 
-We will be working in a Jupyter Notebook
+> Instructor Note: This demo is intended to show the students some of the visualisation capabilities of Python. 
+> The code in the file
+[Python_101_Demo_Plotly.ipynb](./code/Python_101_Demo_Plotly.ipynb) may be more intricate than you may want the students to grasp on their own. We suggest giving the students a copy of the complete notebook above and run throught the code with them in class. 
+>
+> Make sure the students understand that this is a demo and that some of the instructions in the demo will become clearer as the lesson progresses. It will also give them an opportunity to continue their learning process.
+> 
+> 
+> # DISCUSSION
+> 
+> 1. Start by asking the students about the importance of visualising data: when is it needed? what does it add? what tools do they tend to use in their daily work (if any)? 
+> 
+> Instructor Note: Start a Jupyter notebook and remind the students how to use it.
 
-See file here:
-[Python_101_Demo_Plotly.ipynb](./code/Python_101_Demo_Plotly.ipynb)
+### Instructions for students
+We recommend using a Jupyter notebook for this demo. This makes it easier for all as it is homogenous for various environments (mac, win, linux).
+
+1. Save the file called [Python_101_Demo_Plotly.ipynb](./code/Python_101_Demo_Plotly.ipynb) in a known location in your file system
+2. Open Jupyter: in a terminal type
+`jupyter notebook`
+3. Navigate to the folder where you saved your file in step 1.
+4. Click on the name of the file
+5. Voilà, you are ready to follow the demo
 
 
 <a name="guided-practice1"></a>
