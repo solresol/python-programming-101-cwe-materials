@@ -64,7 +64,7 @@ As discussed, please use labels to make it easier for owners and maintainers to 
 - **Needs Revision**:  Used by maintainers or owners to notify contributors that more work is needed before a merge
 - **New Resource**:  Used by contributors to submit a new lesson, lab, or homework
 
-## Contributors Expectations
+## Contributor Expectations
 
 Given the bandwidth of the owners and maintainers, issues and pull requests will be addressed about once a week, by a group of owners and maintainers, going forward.  The outcome of the issue or pull request is likely to fall into one of three buckets:
 
