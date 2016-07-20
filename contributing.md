@@ -23,7 +23,7 @@ Here are a few tips when creating an issue:
 - Be clear about your feedback or question by using a label and thorough details in your issue description: what lesson were you using? what should have happened that didn't happen? how would you change a week? etc.
 - Include error messages, logs, or screenshots
 - Paste error output or logs in your issue or in a Gist. If pasting them in the issue, wrap it in three backticks so that it renders nicely.
-- 
+
 #### Create a Pull Request
 
 If you’re able to patch the bug or correct some syntax/spelling yourself – fantastic! Make a pull request with your changes! Once you’ve submitted a pull request, the owners and maintainers will carefully review your code/suggestions to determine whether or not more action is needed or the request should be merged or closed.
