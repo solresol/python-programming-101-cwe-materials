@@ -43,7 +43,7 @@ creator:
 | 5-10 min  | BREAK  |   |
 | 15 min  | [Introduction](#intro2)   | Python Programming Fundamentals |
 | 15 min  | [Demo](#demo2)  | Writing Programs in Python   |
-| 20 min  | [Guided Practice](#guided-practice2)  | Delving into Data with Python   |
+| 20 min  | [Guided Practice](#guided-practice2)  | Dive into Data with Python   |
 | 20 min  | [Independent Practice](#ind-practice2)  | More Python Practice |
 | 10 min  | [Conclusion](#conclusion) | Review + Recap |
 | 10 min  | [Takeaways](#takeaway) | Learning Plan + Q&A |
@@ -726,7 +726,7 @@ print(area)
 ***
 
 <a name="guided-practice2"></a>
-## Guided Practice: Delving into Data with Python (20 mins)
+## Guided Practice: Dive into Data with Python (20 mins)
 
 > Instructor Note:
 > 
