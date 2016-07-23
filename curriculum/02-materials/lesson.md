@@ -467,8 +467,7 @@ print(params)
 <a name="ind-practice1"></a>
 ## Independent Practice: Applying Python Pseudo-code to Sample Data (20 mins)
 
-Pseudocode is a language very close to English that allows us to represent a program concisely. The only thing you need is a statement to show where you are
-starting and where you are ending a program.
+Pseudocode is a language very close to English that allows us to represent a program concisely. The only thing you need is a statement to show where you are starting and where you are ending a program.
 
 > Instructor Note: Run through the following example with the students. Then ask them to tackle problems similar to the ones proposed below.
 
@@ -491,7 +490,7 @@ End
 <summary>
 1. Create a complete programme that will calculate the area circle with radius r.
 </summary>
-```python
+```
 Start
 	pi = 3.14159265359
 	radius = r
@@ -505,7 +504,7 @@ End
 <summary>
 2. Calculate and print the square of a number. If the number is larger than 10 also calculate the cube.
 </summary>
-```python
+```
 Start
 	number = n
 	square = n^2
@@ -526,7 +525,7 @@ End
 <summary>
 3. List the letters in the sentence "Python is awesome"
 </summary>
-```python
+```
 Start
 	MyString = "Python is awesome"
 	
@@ -547,7 +546,7 @@ End
 
 > Instructor Note: Remind the students about the concepts learnt in the first part of the workshop. Review the first Python code introduced and the types you have covered.
 > 
-> # DISCUSSION
+> DISCUSSION
 > 
 > 1. Start by surveying what students already know or don't know
 > 
@@ -632,7 +631,7 @@ else:
 	print("A is smaller than B")
 ```
 
-##### Activity: Can you explain what the code above is doing?
+**Activity: Can you explain what the code above is doing?**
 
 #### **For loop**
 
@@ -648,6 +647,7 @@ FOR each user of a service in a list
 In the pseudo-code above, the condition we are asked to greet each user in a list. We stop the repetition when we reach the end of the list. 
 
 We can express this loop in Python as follows:
+
 ```python
 users = ["Jeff", "Jay", "Theresa"]
 
@@ -687,7 +687,7 @@ Functions are a key way to define interfaces so programmers can share their code
 
 Here is how you define a function in python
 
-```
+```python
 def function_name(input1, input2...): 
     1st block of instructions 
     2nd block of instructions
