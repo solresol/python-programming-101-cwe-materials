@@ -719,19 +719,20 @@ print(var2)
 <a name="demo2"></a>
 ## Demo: Writing Programs in Python (15 mins)
 
-Show the students how to put together a programme in Python.
+> Instructor Note: Show the students how to put together a programme in Python.
 
 Python is an *interpreted* language, which means you can run the program as soon as you make changes to the file. This makes iterating, revising, and troubleshooting programs is much quicker than many other languages.
 
-> Walk the students through translating the first pseudocode problem from [Part 1 - Independent Practice](#ind-practice1). Then encourage the students to write Python code for the other two exercises from [Part 1 - Independent Practice](#ind-practice1).
+> Instructor Note: Walk the students through translating the first pseudocode problem from [Part 1 - Independent Practice](#ind-practice1). Then encourage the students to write Python code for the other two exercises from [Part 1 - Independent Practice](#ind-practice1).
+> 
+> Explain that the mathematical constant Pi is included in the math module
 
 <details>
 <summary>
 1. Create a complete programme that will calculate the area circle with radius r.
 </summary>
+
 ```python
-# Explain that the mathematical constant Pi
-# is included in the math module
 # We are importing the value of pi from 
 # that module - Easy to read, right?
 from math import pi
