@@ -279,13 +279,13 @@ Common Python IDEs:
 
 A barebones script for the "Hello World!" program (saved to a file called `hi.py`) looks like this:
 
-```
+```python
 print("Hello world!")
 ```
 
 To run the script by passing it as a command to the Python interpreter we need to write:
 
-```
+```python
 > python hi.py
 ```
 
@@ -295,19 +295,19 @@ Unlike other languages, there's no `main()` function that gets run automatically
 
 In this case, the top-level code is an if block.  `__name__` is a built-in variable which evaluates to the name of the current module. We can test whether our script is being run directly or being imported by something else by testing
 
-```
+```python
 if __name__ == "__main__":
     ...
 ```
 
 A more sophisticated version of the "Hello World!" script is therefore:
 
-```
-	def main():
-	    print("hello world")
+```python
+def main():
+	print("hello world")
 
-	if __name__ == '__main__':
-	    main()
+if __name__ == '__main__':
+    main()
 ```
 
 ***
@@ -316,7 +316,7 @@ A more sophisticated version of the "Hello World!" script is therefore:
 
 > Instructor Note: This demo is intended to show the students some of the visualisation capabilities of Python. 
 > The code in the file
-[Python_101_Demo_Plotly.ipynb](./code/Python_101_Demo_Plotly.ipynb) may be more intricate than you may want the students to grasp on their own. We suggest giving the students a copy of the complete notebook above and run throught the code with them in class. 
+[Python_101_Demo_Plotly.ipynb](./code/Python_101_Demo_Plotly.ipynb) may be more intricate than you may want the students to grasp on their own. We suggest giving the students a copy of the complete notebook above and run through the code with them in class. 
 >
 > Make sure the students understand that this is a demo and that some of the instructions in the demo will become clearer as the lesson progresses. It will also give them an opportunity to continue their learning process.
 > 
