@@ -755,10 +755,10 @@ print(area)
 > 
 > Use the Jupyter notebook [Python101_Part2_GuidedPractice.ipynb](./code/Python101_Part2_GuidedPractice.ipynb) 
 > 
-> ### IDE suggestion
+> IDE suggestion
 > We encourage you to use a Jupyter notebook. It makes it easier to keep the class together as students will be using a common IDE. 
 > 
-> ### Activity
+>  Activity
 >  We suggest making the code below available to the students and get them to work in pairs going through the code in the notebook
 
 Let us create a new Jupyter notebook for this practice. We will work in pairs.
@@ -766,7 +766,7 @@ Let us create a new Jupyter notebook for this practice. We will work in pairs.
 1. Save the file called [Python101_Part2_GuidedPractice.ipynb](./code/Python101_Part2_GuidedPractice.ipynb) in a known location in your file system
 2. Start Jupyter and navigate to the location where you saved the file
 3. Open the file 
-4. Voilà,  you can start the Guided Practice
+4. Voilà, you can start the Guided Practice
 
 
 ***
@@ -782,18 +782,20 @@ Given your interests and knowledge, which are you more interested in learning ab
 - python fundamentals?
 
 > Instructor Note:
-> ### ACTIVITY CHOICES
+> 
+> ACTIVITY CHOICES
 >
 > You can chose either of the two options outlined below. You can do this running a discussion with the students or a poll? For instance - *which are you more interested in learning about - python fundamentals or practical applications of python?*
 >
-> #### OPTION 1
+> OPTION 1
 >
 > You can use the [Iris Dataset notebook included in the materials](./code/Python101_Part2_IndPractice.ipynb) to follow up the introduction to pandas in the previous section. Note that the notebook makes reference to the [Iris Dataset included here](./code/data/iris.csv).
 >
 > This activity lets the students to see practical applications of python  
 >
-> #### OPTION 2
->  Alternatively, you can tackle programming tasks to cover the python fundamentals covered earlier on. See the suggestions below:
+> OPTION 2
+> 
+> Alternatively, you can tackle programming tasks to cover the python fundamentals covered earlier on. See the suggestions below:
 
 ### Suggested programming tasks (Option 2)
 
@@ -888,7 +890,7 @@ In the workshop you have covered the following topics:
 
 > Instructor Note:
 >
-> ### Review Deliverables
+> Review Deliverables
 >
 >  Use this to encourage discussion, e.g. ask students to generate takeaways
 
@@ -921,9 +923,11 @@ In the workshop you have covered the following topics:
 
 #### What Should You Do Next?
 
-Encourage the students to continue learning by producing a plan based on the topics discussed in the workshop.
+> Instructor Note: 
+> 
+> Encourage the students to continue learning by producing a plan based on the topics discussed in the workshop.
 
-Suggest some resources such as books, podcasts, GA courses, etc.
+We suggest some resources such as books, podcasts, GA courses, etc.
 
 * For beginner programmers:
 	* go through [Learn Python the hard way](http://learnpythonthehardway.org)
