@@ -14,26 +14,23 @@ creator:
 - Discuss the history of Python and its use across different industries.
 - Define how Python compares to other programming languages.
 - Describe the benefits of a Python workflow when working with data.
-- Demonstrate basic understanding of Python programming fundamentals.
-- Use Python code to solve real world data problems.
+- Demonstrate basic Python programming fundamentals to solve real world problems.
 - Create a custom learning plan to help you continue to build fundamental python skills after this workshop.
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
 
-- Bring a laptop with [Python 2.7](#) and [Anaconda](#) installed.
-- If you are using a PC, install [git-bash terminal](#).
-- Optional: Install a text editor like Sublime Text 3 or Atom on your computer.
-- Curiosity and open mind
-
-- Optional: Install a text editor like **Sublime Text 3** or **Atom** on your computer. If you are using Anaconda, **Spyder** is included in the distribution.
+- Bring a laptop with [Anaconda](https://www.continuum.io/downloads) using [Python 2.7](https://www.python.org/download/releases/2.7/) installed. Note: Make sure to choose the *Python 2.7* version for your operating system. 
+- If you are using a PC, also install [git-bash terminal](https://git-for-windows.github.io).
+- *Optional*: Install a text editor like [Sublime Text 3](http://www.sublimetext.com) or [Atom](https://atom.io) on your computer. If you are using Anaconda, **Spyder** is included in the distribution.
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
 
-- Review & modify lesson plan & slide deck as needed
+- Review & modify lesson plan & slide deck
 - Write learning objectives & relevant information on board
 - Review Student Roster and Instructor Checklist
+- Prepare handout to distribute to students.
 
 ### WORKSHOP AGENDA
 | TIMING  | TYPE  | TOPIC  |
@@ -46,7 +43,7 @@ creator:
 | 5-10 min  | BREAK  |   |
 | 15 min  | [Introduction](#intro2)   | Python Programming Fundamentals |
 | 15 min  | [Demo](#demo2)  | Writing Programs in Python   |
-| 20 min  | [Guided Practice](#guided-practice2)  | Delving into Data with Python   |
+| 20 min  | [Guided Practice](#guided-practice2)  | Dive into Data with Python   |
 | 20 min  | [Independent Practice](#ind-practice2)  | More Python Practice |
 | 10 min  | [Conclusion](#conclusion) | Review + Recap |
 | 10 min  | [Takeaways](#takeaway) | Learning Plan + Q&A |
@@ -729,7 +726,7 @@ print(area)
 ***
 
 <a name="guided-practice2"></a>
-## Guided Practice: Delving into Data with Python (20 mins)
+## Guided Practice: Dive into Data with Python (20 mins)
 
 > Instructor Note:
 > 
