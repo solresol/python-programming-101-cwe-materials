@@ -371,7 +371,7 @@ Other packages that are widely used:
 * pandas
 	* Ever used Excel? How do yo fancy working with data structured in a similar way, but without the irritation of formatting, long formulae and better graphics. Well, use *pandas*
 * SciPy/NumPy
-	* Does your application require the use of advanced mathematical functions or numerical operations with arrays, vectors or matrices? Try *SciPy* (scientific python) and *NumPy* (numerical python
+	* Does your application require the use of advanced mathematical functions or numerical operations with arrays, vectors or matrices? Try *SciPy* (scientific python) and *NumPy* (numerical python)
 * Scikit-Learn
 	* Are you interested in using python in a data science workflow and exploit the use of machine learning in your applications? Look no further than *Scikit-learn*
 * matplotlib
@@ -382,7 +382,7 @@ Other packages that are widely used:
 	* All the data you require is available freely on the web but there is no download button and *You* need to scrape the website? You can  extract data from HTML using *Beautiful soup*
 
 ### Importing a module
-```
+```python
 import math
 x = math.cos(2 * math.pi)
 print(x)
@@ -396,7 +396,7 @@ log(10,2)
 
 ### Types, Variables, assignment
 
-```
+```python
 # variable assignments
 x = 1.0
 my_variable = 12.2
@@ -410,13 +410,14 @@ type(b1)
 
 s = "String"
 type(s)
-
+```
+```python
 import types
 print(dir(types))
 
-1+2,1-2,1*2,1/2
+1+2, 1-2, 1*2, 1/2
 
-1.0+2.0,1.0-2.0,1.0*2.0,1.0/2.0
+1.0+2.0, 1.0-2.0, 1.0*2.0, 1.0/2.0
 
 # Comment
 
@@ -429,7 +430,7 @@ print(dir(types))
 
 **Lists**
 
-```
+```python
 l = [1,2,3,4]
 print(type(l))
 print(l)
@@ -443,7 +444,7 @@ print(l[0])
 
 **Tuples**
 
-```
+```python
 point = (10, 20)
 print(point, type(point))
 
@@ -454,7 +455,7 @@ print("y =", y)
 
 **Dictionaries**
 
-```
+```python
 params = {"parameter1" : 1.0, "parameter2" : 2.0,
 "parameter3" : 3.0,}
 print(type(params))
