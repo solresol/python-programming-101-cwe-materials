@@ -58,6 +58,7 @@ creator:
 #### Instructor Bio
 
 Welcome to Python Programming 101! Here's a bit about me:
+
 > Provide your name and brief bio, including: your background in python programming, any experience you've had with GA, and one "fun fact" about yourself.
 
 #### Introduce Yourselves
@@ -93,10 +94,9 @@ Why this topic matters:
 * Python has been gaining popularity (why will se why!)  
 Why this topic rocks:
 
-* Python opens up a door to a variety of opportunities, from data science to research in cosmology  
+* Python opens up a door to a variety of opportunities, from data science to research in cosmology 
 
 > Note: Tailor these points to student interests. Relate to their career info & goals students described during attendance.
-
 
 ***
 
@@ -120,7 +120,9 @@ Why this topic rocks:
 	* **Dynamic semantics**: Once data has been specified, the machine must be instructed to perform operations on the data. Dynamic semantics (also known as execution semantics)  defines how and when the various constructs of a language should produce a program behaviour, providing flexibility at run-time.
 
 > Instructor Note:
-> #### KNOWLEDGE CHECK
+> 
+> KNOWLEDGE CHECK
+> 
 > Ask students to recall what they just learned. For example get them to explain terms to each other.
 
 **Why Python?**
@@ -136,7 +138,9 @@ Why this topic rocks:
 * Because it is well documented and has a well-established and growing community.
 
 > Instructor Note
+> 
 > KNOWLEDGE CHECK
+> 
 > Provide an example of your day-to-day work with Python.
 > Ask students how they manage their data work and whether they have had any experience with Python (or any other programming languages).
 > Ask students to  generate answers - why are these things good? Why does this matter?
@@ -174,7 +178,9 @@ Why this topic rocks:
 **Python v other languages**
 
 > Instructor Note:
-> ### ACTIVITY AND DISCUSSION
+> 
+> ACTIVITY AND DISCUSSION
+> 
 > What other languages have the students heard of? what are they familiar with, if any? Then ask how they think those might compare to Python.
 
 [Comparing Python to Other Languages](https://www.python.org/doc/essays/comparisons/)
@@ -186,13 +192,13 @@ Let us what a Python program looks like, starting with the typical "Hello World!
 
 - **Python**
 
-```
-	print("hello world")
+```python
+print("hello world")
 ```
 
 - **C++**
 
-```
+```c++
 #include<iostream>
 using namespace std;
 
@@ -212,7 +218,7 @@ Let us see the same program in Java:
 
 - **Java**
 
-```
+```java
 public class HelloWorld
 {
     public static void main (String[] args)
@@ -227,7 +233,9 @@ Notice that in the Java version we define the code inside the context of class.
 In Object Oriented Programming a *class* is a template definition of the methods and variables in a particular kind of object. In other words, an object is a specific instance of a class: it contains actual values instead of variables.
 
 > Instructor Note:
-> ### OTHER EXAMPLES
+> 
+> OTHER EXAMPLES
+> 
 > You are encouraged to use other specific examples of an element python does particularly well, using a simple statement or function. This depends on your familiarity with other programming languages, as well with the abilities of the students in your class.
 
 #### Python interactive shell v scripts
