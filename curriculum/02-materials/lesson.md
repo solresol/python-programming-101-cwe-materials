@@ -79,10 +79,23 @@ Before we dive in, a bit about you!
 
 > Note: Write workshop objectives on board before class
 
-- Why this topic matters (general relevance)
-- Why this topic rocks (interest/hook)
+What we’ll cover:
 
-> Note: Tailor these 2 points to student interests. Relate to their career info & goals students described during attendance.
+* Why Python & What can Python do for me?
+* Implementing Python into your workflow
+* Python Libraries
+* Programming (pseudocode and Python)
+* Dive into data with Python
+
+Why this topic matters:
+
+* Programming is a sought-after skill 
+* Python has been gaining popularity (why will se why!)  
+Why this topic rocks:
+
+* Python opens up a door to a variety of opportunities, from data science to research in cosmology  
+
+> Note: Tailor these points to student interests. Relate to their career info & goals students described during attendance.
 
 
 ***
