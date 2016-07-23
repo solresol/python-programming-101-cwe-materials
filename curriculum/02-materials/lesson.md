@@ -136,7 +136,7 @@ Why this topic rocks:
 * Because it is well documented and has a well-established and growing community.
 
 > Instructor Note
-> ### KNOWLEDGE CHECK
+> KNOWLEDGE CHECK
 > Provide an example of your day-to-day work with Python.
 > Ask students how they manage their data work and whether they have had any experience with Python (or any other programming languages).
 > Ask students to  generate answers - why are these things good? Why does this matter?
