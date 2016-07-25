@@ -58,6 +58,7 @@ creator:
 #### Instructor Bio
 
 Welcome to Python Programming 101! Here's a bit about me:
+
 > Provide your name and brief bio, including: your background in python programming, any experience you've had with GA, and one "fun fact" about yourself.
 
 #### Introduce Yourselves
@@ -79,11 +80,23 @@ Before we dive in, a bit about you!
 
 > Note: Write workshop objectives on board before class
 
-- Why this topic matters (general relevance)
-- Why this topic rocks (interest/hook)
+What we’ll cover:
 
-> Note: Tailor these 2 points to student interests. Relate to their career info & goals students described during attendance.
+* Why Python & What can Python do for me?
+* Implementing Python into your workflow
+* Python Libraries
+* Programming (pseudocode and Python)
+* Dive into data with Python
 
+Why this topic matters:
+
+* Programming is a sought-after skill 
+* Python has been gaining popularity (why will se why!)  
+Why this topic rocks:
+
+* Python opens up a door to a variety of opportunities, from data science to research in cosmology 
+
+> Note: Tailor these points to student interests. Relate to their career info & goals students described during attendance.
 
 ***
 
@@ -107,7 +120,9 @@ Before we dive in, a bit about you!
 	* **Dynamic semantics**: Once data has been specified, the machine must be instructed to perform operations on the data. Dynamic semantics (also known as execution semantics)  defines how and when the various constructs of a language should produce a program behaviour, providing flexibility at run-time.
 
 > Instructor Note:
-> #### KNOWLEDGE CHECK
+> 
+> KNOWLEDGE CHECK
+> 
 > Ask students to recall what they just learned. For example get them to explain terms to each other.
 
 **Why Python?**
@@ -123,7 +138,9 @@ Before we dive in, a bit about you!
 * Because it is well documented and has a well-established and growing community.
 
 > Instructor Note
-> ### KNOWLEDGE CHECK
+> 
+> KNOWLEDGE CHECK
+> 
 > Provide an example of your day-to-day work with Python.
 > Ask students how they manage their data work and whether they have had any experience with Python (or any other programming languages).
 > Ask students to  generate answers - why are these things good? Why does this matter?
@@ -161,7 +178,9 @@ Before we dive in, a bit about you!
 **Python v other languages**
 
 > Instructor Note:
-> ### ACTIVITY AND DISCUSSION
+> 
+> ACTIVITY AND DISCUSSION
+> 
 > What other languages have the students heard of? what are they familiar with, if any? Then ask how they think those might compare to Python.
 
 [Comparing Python to Other Languages](https://www.python.org/doc/essays/comparisons/)
@@ -173,13 +192,13 @@ Let us what a Python program looks like, starting with the typical "Hello World!
 
 - **Python**
 
-```
-	print("hello world")
+```python
+print("hello world")
 ```
 
 - **C++**
 
-```
+```c++
 #include<iostream>
 using namespace std;
 
@@ -199,7 +218,7 @@ Let us see the same program in Java:
 
 - **Java**
 
-```
+```java
 public class HelloWorld
 {
     public static void main (String[] args)
@@ -214,7 +233,9 @@ Notice that in the Java version we define the code inside the context of class.
 In Object Oriented Programming a *class* is a template definition of the methods and variables in a particular kind of object. In other words, an object is a specific instance of a class: it contains actual values instead of variables.
 
 > Instructor Note:
-> ### OTHER EXAMPLES
+> 
+> OTHER EXAMPLES
+> 
 > You are encouraged to use other specific examples of an element python does particularly well, using a simple statement or function. This depends on your familiarity with other programming languages, as well with the abilities of the students in your class.
 
 #### Python interactive shell v scripts
@@ -258,13 +279,13 @@ Common Python IDEs:
 
 A barebones script for the "Hello World!" program (saved to a file called `hi.py`) looks like this:
 
-```
+```python
 print("Hello world!")
 ```
 
 To run the script by passing it as a command to the Python interpreter we need to write:
 
-```
+```python
 > python hi.py
 ```
 
@@ -274,19 +295,19 @@ Unlike other languages, there's no `main()` function that gets run automatically
 
 In this case, the top-level code is an if block.  `__name__` is a built-in variable which evaluates to the name of the current module. We can test whether our script is being run directly or being imported by something else by testing
 
-```
+```python
 if __name__ == "__main__":
     ...
 ```
 
 A more sophisticated version of the "Hello World!" script is therefore:
 
-```
-	def main():
-	    print("hello world")
+```python
+def main():
+	print("hello world")
 
-	if __name__ == '__main__':
-	    main()
+if __name__ == '__main__':
+    main()
 ```
 
 ***
@@ -295,7 +316,7 @@ A more sophisticated version of the "Hello World!" script is therefore:
 
 > Instructor Note: This demo is intended to show the students some of the visualisation capabilities of Python. 
 > The code in the file
-[Python_101_Demo_Plotly.ipynb](./code/Python_101_Demo_Plotly.ipynb) may be more intricate than you may want the students to grasp on their own. We suggest giving the students a copy of the complete notebook above and run throught the code with them in class. 
+[Python_101_Demo_Plotly.ipynb](./code/Python_101_Demo_Plotly.ipynb) may be more intricate than you may want the students to grasp on their own. We suggest giving the students a copy of the complete notebook above and run through the code with them in class. 
 >
 > Make sure the students understand that this is a demo and that some of the instructions in the demo will become clearer as the lesson progresses. It will also give them an opportunity to continue their learning process.
 > 
@@ -350,7 +371,7 @@ Other packages that are widely used:
 * pandas
 	* Ever used Excel? How do yo fancy working with data structured in a similar way, but without the irritation of formatting, long formulae and better graphics. Well, use *pandas*
 * SciPy/NumPy
-	* Does your application require the use of advanced mathematical functions or numerical operations with arrays, vectors or matrices? Try *SciPy* (scientific python) and *NumPy* (numerical python
+	* Does your application require the use of advanced mathematical functions or numerical operations with arrays, vectors or matrices? Try *SciPy* (scientific python) and *NumPy* (numerical python)
 * Scikit-Learn
 	* Are you interested in using python in a data science workflow and exploit the use of machine learning in your applications? Look no further than *Scikit-learn*
 * matplotlib
@@ -361,7 +382,7 @@ Other packages that are widely used:
 	* All the data you require is available freely on the web but there is no download button and *You* need to scrape the website? You can  extract data from HTML using *Beautiful soup*
 
 ### Importing a module
-```
+```python
 import math
 x = math.cos(2 * math.pi)
 print(x)
@@ -375,7 +396,7 @@ log(10,2)
 
 ### Types, Variables, assignment
 
-```
+```python
 # variable assignments
 x = 1.0
 my_variable = 12.2
@@ -389,13 +410,14 @@ type(b1)
 
 s = "String"
 type(s)
-
+```
+```python
 import types
 print(dir(types))
 
-1+2,1-2,1*2,1/2
+1+2, 1-2, 1*2, 1/2
 
-1.0+2.0,1.0-2.0,1.0*2.0,1.0/2.0
+1.0+2.0, 1.0-2.0, 1.0*2.0, 1.0/2.0
 
 # Comment
 
@@ -408,7 +430,7 @@ print(dir(types))
 
 **Lists**
 
-```
+```python
 l = [1,2,3,4]
 print(type(l))
 print(l)
@@ -422,7 +444,7 @@ print(l[0])
 
 **Tuples**
 
-```
+```python
 point = (10, 20)
 print(point, type(point))
 
@@ -433,7 +455,7 @@ print("y =", y)
 
 **Dictionaries**
 
-```
+```python
 params = {"parameter1" : 1.0, "parameter2" : 2.0,
 "parameter3" : 3.0,}
 print(type(params))
@@ -445,8 +467,7 @@ print(params)
 <a name="ind-practice1"></a>
 ## Independent Practice: Applying Python Pseudo-code to Sample Data (20 mins)
 
-Pseudocode is a language very close to English that allows us to represent a program concisely. The only thing you need is a statement to show where you are
-starting and where you are ending a program.
+Pseudocode is a language very close to English that allows us to represent a program concisely. The only thing you need is a statement to show where you are starting and where you are ending a program.
 
 > Instructor Note: Run through the following example with the students. Then ask them to tackle problems similar to the ones proposed below.
 
@@ -469,7 +490,7 @@ End
 <summary>
 1. Create a complete programme that will calculate the area circle with radius r.
 </summary>
-```python
+```
 Start
 	pi = 3.14159265359
 	radius = r
@@ -483,7 +504,7 @@ End
 <summary>
 2. Calculate and print the square of a number. If the number is larger than 10 also calculate the cube.
 </summary>
-```python
+```
 Start
 	number = n
 	square = n^2
@@ -504,7 +525,7 @@ End
 <summary>
 3. List the letters in the sentence "Python is awesome"
 </summary>
-```python
+```
 Start
 	MyString = "Python is awesome"
 	
@@ -525,7 +546,7 @@ End
 
 > Instructor Note: Remind the students about the concepts learnt in the first part of the workshop. Review the first Python code introduced and the types you have covered.
 > 
-> # DISCUSSION
+> DISCUSSION
 > 
 > 1. Start by surveying what students already know or don't know
 > 
@@ -610,7 +631,7 @@ else:
 	print("A is smaller than B")
 ```
 
-##### Activity: Can you explain what the code above is doing?
+**Activity: Can you explain what the code above is doing?**
 
 #### **For loop**
 
@@ -626,6 +647,7 @@ FOR each user of a service in a list
 In the pseudo-code above, the condition we are asked to greet each user in a list. We stop the repetition when we reach the end of the list. 
 
 We can express this loop in Python as follows:
+
 ```python
 users = ["Jeff", "Jay", "Theresa"]
 
@@ -665,7 +687,7 @@ Functions are a key way to define interfaces so programmers can share their code
 
 Here is how you define a function in python
 
-```
+```python
 def function_name(input1, input2...): 
     1st block of instructions 
     2nd block of instructions
@@ -697,19 +719,20 @@ print(var2)
 <a name="demo2"></a>
 ## Demo: Writing Programs in Python (15 mins)
 
-Show the students how to put together a programme in Python.
+> Instructor Note: Show the students how to put together a programme in Python.
 
 Python is an *interpreted* language, which means you can run the program as soon as you make changes to the file. This makes iterating, revising, and troubleshooting programs is much quicker than many other languages.
 
-> Walk the students through translating the first pseudocode problem from [Part 1 - Independent Practice](#ind-practice1). Then encourage the students to write Python code for the other two exercises from [Part 1 - Independent Practice](#ind-practice1).
+> Instructor Note: Walk the students through translating the first pseudocode problem from [Part 1 - Independent Practice](#ind-practice1). Then encourage the students to write Python code for the other two exercises from [Part 1 - Independent Practice](#ind-practice1).
+> 
+> Explain that the mathematical constant Pi is included in the math module
 
 <details>
 <summary>
 1. Create a complete programme that will calculate the area circle with radius r.
 </summary>
+
 ```python
-# Explain that the mathematical constant Pi
-# is included in the math module
 # We are importing the value of pi from 
 # that module - Easy to read, right?
 from math import pi
@@ -732,10 +755,10 @@ print(area)
 > 
 > Use the Jupyter notebook [Python101_Part2_GuidedPractice.ipynb](./code/Python101_Part2_GuidedPractice.ipynb) 
 > 
-> ### IDE suggestion
+> IDE suggestion
 > We encourage you to use a Jupyter notebook. It makes it easier to keep the class together as students will be using a common IDE. 
 > 
-> ### Activity
+>  Activity
 >  We suggest making the code below available to the students and get them to work in pairs going through the code in the notebook
 
 Let us create a new Jupyter notebook for this practice. We will work in pairs.
@@ -743,7 +766,7 @@ Let us create a new Jupyter notebook for this practice. We will work in pairs.
 1. Save the file called [Python101_Part2_GuidedPractice.ipynb](./code/Python101_Part2_GuidedPractice.ipynb) in a known location in your file system
 2. Start Jupyter and navigate to the location where you saved the file
 3. Open the file 
-4. Voilà,  you can start the Guided Practice
+4. Voilà, you can start the Guided Practice
 
 
 ***
@@ -759,18 +782,20 @@ Given your interests and knowledge, which are you more interested in learning ab
 - python fundamentals?
 
 > Instructor Note:
-> ### ACTIVITY CHOICES
+> 
+> ACTIVITY CHOICES
 >
 > You can chose either of the two options outlined below. You can do this running a discussion with the students or a poll? For instance - *which are you more interested in learning about - python fundamentals or practical applications of python?*
 >
-> #### OPTION 1
+> OPTION 1
 >
 > You can use the [Iris Dataset notebook included in the materials](./code/Python101_Part2_IndPractice.ipynb) to follow up the introduction to pandas in the previous section. Note that the notebook makes reference to the [Iris Dataset included here](./code/data/iris.csv).
 >
 > This activity lets the students to see practical applications of python  
 >
-> #### OPTION 2
->  Alternatively, you can tackle programming tasks to cover the python fundamentals covered earlier on. See the suggestions below:
+> OPTION 2
+> 
+> Alternatively, you can tackle programming tasks to cover the python fundamentals covered earlier on. See the suggestions below:
 
 ### Suggested programming tasks (Option 2)
 
@@ -865,7 +890,7 @@ In the workshop you have covered the following topics:
 
 > Instructor Note:
 >
-> ### Review Deliverables
+> Review Deliverables
 >
 >  Use this to encourage discussion, e.g. ask students to generate takeaways
 
@@ -898,9 +923,11 @@ In the workshop you have covered the following topics:
 
 #### What Should You Do Next?
 
-Encourage the students to continue learning by producing a plan based on the topics discussed in the workshop.
+> Instructor Note: 
+> 
+> Encourage the students to continue learning by producing a plan based on the topics discussed in the workshop.
 
-Suggest some resources such as books, podcasts, GA courses, etc.
+We suggest some resources such as books, podcasts, GA courses, etc.
 
 * For beginner programmers:
 	* go through [Learn Python the hard way](http://learnpythonthehardway.org)
