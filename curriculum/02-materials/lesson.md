@@ -162,16 +162,14 @@ Why this topic rocks:
 	- [Scientific visualisation](https://www.python.org/about/success/mayavi/)
 	- [Biomolecule simulation](https://www.python.org/about/success/mmtk/)
 
-> Instructor Note: Examples can be drawn from your own experience with Python. If you need inspiration, there are plenty of examples on [this page](https://www.python.org/about/success/)
+> Instructor Note: Examples can be drawn from your own experience with Python. If you need inspiration, there are plenty of examples on [this page](https://www.python.org/about/success/).
 
 ## The Benefits of Python
 
 
 What other languages have you heard of? 
 
-> Note: Facilitate a discussion by asking which other languages students are familiar with, if any. Write down their responses on the board for later reference.
-
-[Comparing Python to Other Languages](https://www.python.org/doc/essays/comparisons/)
+> Note: Facilitate a discussion by asking which other languages students are familiar with, if any. Write down their responses on the board for later reference. You can also find more talking points here: [Comparing Python to Other Languages](https://www.python.org/doc/essays/comparisons/).
 
 Python is often compared to other interpreted languages, such as Java, JavaScript, or Perl.
 
@@ -942,3 +940,4 @@ We suggest checking out different resources, such as books, podcasts, GA courses
 - [Learn Python the hard way](http://learnpythonthehardway.org)
 - [Beginners' Guide to Python](https://wiki.python.org/moin/BeginnersGuide)
 - [10 Minutes to Pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
+- [Comparing Python to Other Languages](https://www.python.org/doc/essays/comparisons/)
